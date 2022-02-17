@@ -9,7 +9,7 @@ languageCode = "en-US"
 paginate = 7
 rssLimit = 10
 
-# Multilingual
+#  Multilingual
 defaultContentLanguage = "en"
 # defaultContentLanguageInSubdir = true
 
