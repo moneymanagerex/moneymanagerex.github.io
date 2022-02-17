@@ -23,8 +23,8 @@ jobs:
       - name: Install npm
         run: npm install
         
-      - name: Test npm
-        run: npm test
+   #   - name: Test npm
+   #     run: npm test
         
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
