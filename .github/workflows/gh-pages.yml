@@ -10,19 +10,18 @@ jobs:
   deploy:
     runs-on: ubuntu-20.04
     steps:
-      - name: NPM install
-        uses: actions/checkout@v2
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-        run: npm install
-        run: npm test
-    
       - uses: actions/checkout@v2
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
+      - name: NPM install
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+        run: npm install
+        run: npm test
+        
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
