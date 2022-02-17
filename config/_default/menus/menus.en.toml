@@ -3,7 +3,7 @@
   name = "Download"
   identifier = "download"
   weight = 10
-  url = "docs/mmex/downloads"
+  url = "docs/downloads/latest"
 
 # News
 [[main]]

@@ -67,7 +67,7 @@
             "title": "Android Version",
             "text": "Port of the PC application, it maintains the best features of the desktop application, while adding mobility and synchronization. It requires Android 2.2 (Froyo) or higher."
         },
-        {   "name": "github",
+        {   "name": "opensource",
             "icon": "fab fa-github",
             "title": "Free & Open Source",
             "text": "OpenSource software, free download without ads and charges. It can be freely used, changed, and shared by anyone."
