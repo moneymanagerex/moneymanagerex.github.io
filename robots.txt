@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.moneymangerex.org/sitemap.xml
+Sitemap: https://whalley.github.io/mmex.site2/sitemap.xml
