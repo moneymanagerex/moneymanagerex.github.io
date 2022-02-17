@@ -1,0 +1,94 @@
+# Meta Data for SEO
+
+## Homepage
+title = "MoneyManager Ex"
+titleSeparator = "-"
+titleAddition = "Money Manager Ex"
+description = "Free, easy-to-use, personal finance software"
+
+## Documentation
+# docsVersion = "0.3"
+
+## Open Graph
+images = ["doks.png"]
+ogLocale = "en_US"
+domainTLD = "doks.netlify.app"
+titleHome = "Doks Theme"
+
+## Twitter Cards
+twitterSite = "@getdoks"
+twitterCreator = "@henkverlinde"
+
+## JSON-LD
+# schemaType = "Person"
+schemaType = "Organization"
+schemaName = "Doks"
+schemaAuthor = "Henk Verlinde"
+schemaAuthorTwitter = "https://twitter.com/MoneyManagerEx"
+#schemaAuthorLinkedIn = ""
+schemaAuthorGitHub = "https://github.com/moneymangerex"
+schemaLocale = "en-US"
+schemaLogo = "logo-doks.png"
+schemaLogoWidth = 512
+schemaLogoHeight = 512
+schemaImage = "doks.png"
+schemaImageWidth = 1280
+schemaImageHeight = 640
+schemaTwitter = "https://twitter.com/MoneyManagerEx"
+schemaLinkedIn = ""
+schemaGitHub = "https://github.com/MoneyManagerEx"
+schemaSection = "blog"
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+smallLimit = "300"
+
+# Footer
+footer = "Powered by <a class=\"text-muted\" href=\"https://www.github.com/\">GitHub</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+
+# Feed
+copyRight = "Copyright (c) 2022 MoneyManager Ex"
+
+# Alert
+alert = false
+alertDismissable = true
+alertText = ""
+
+# Edit Page
+# repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
+repoHost = "GitHub"
+#repoHost = "Gitea"
+docsRepo = "https://github.com/moneymanagerex/moneymanagerex"
+docsRepoBranch = "master"
+docsRepoSubPath = ""
+editPage = false
+lastMod = false
+
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  flexSearch = true
+  darkMode = true
+  bootStrapJs = true
+  breadCrumb = false
+  highLight = true
+  kaTex = false
+  multilingualMode = false
+  docsVersioning = false
+  fullWidth = false
+
+[menu]
+  [menu.section]
+    auto = true
+    collapsibleSidebar = true

@@ -1,0 +1,67 @@
+{{ define "main" }}
+<section class="section bg-light rounded py-1">
+  <div class="container px-1">
+    <div class="row gx-5 align-items-center justify-content-center">
+      <div class="col-lg-8">
+        <div class="my-5 text-center">
+          <img src="/images/mmex.svg">
+          <h1 class="display-5 fw-bolder mb-2 text-white">{{ .Title }}</h1>
+          <p class="lead fw-normal mb-4 text-white-50">{{ .Params.lead | safeHTML }}</p>
+          <div class="d-grid gap-3 d-sm-flex">
+              <a class="btn btn-primary btn-lg px-4" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}mmex/downloads"><i class="fas fa-download"></i>&nbsp;Download</a>
+              <a class="btn btn-outline-light btn-lg px-4" href="https://github.moneymanagerex.org/moneymanagerex/docs/en/index.html"><i class="fas fa-book-open"></i>&nbsp;Documentation</a>
+              <a class="btn btn-warning btn-lg px-4" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}mmex/donate"><i class="fas fa-donate"></i>&nbsp;Donate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "sidebar-prefooter" }}
+  {{ if eq $.Site.Language.LanguageName "English" }}
+  <section class="section section-sm">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-5">
+          <h2 class="h4">Accounts & Currencies</h2>
+          <p>Wizard to simply create accounts and start to use MMEX. Multiple currencies for each account to have more flexibility.</p>
+        </div>
+        <div class="col-lg-5">
+          <h2 class="h4"><i class="fas fa-money-check"></i>Fast by default ⚡️</h2>
+          <p>Get 100 scores on <a href="https://googlechrome.github.io/lighthouse/viewer/?gist=92eaa982d7dbf92f94fe8ecc03987c9a">Google Lighthouse</a> by default. Doks removes unused css, prefetches links, and lazy loads images.</p>
+        </div>
+        <div class="col-lg-5">
+          <h2 class="h4">SEO-ready</h2>
+          <p>Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.</p>
+        </div>
+      </div>
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-5">
+          <h2 class="h4">Full text search</h2>
+          <p>Search your Doks site with FlexSearch. Easily customize index settings and search options to your liking.</p>
+        </div>
+        <div class="col-lg-5">
+          <h2 class="h4">Page layouts</h2>
+          <p>Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit your needs.</p>
+        </div>
+        <div class="col-lg-5">
+          <h2 class="h4">Dark mode</h2>
+          <p>Switch to a low-light UI with the click of a button. Change colors with variables to match your branding.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}
+
+{{ define "sidebar-footer" }}
+<section class="section section-sm container-fluid">
+  <div class="row justify-content-center text-center">
+    <div class="col-lg-9">
+      {{- .Content -}}
+    </div>
+  </div>
+</section>
+{{ end }}
