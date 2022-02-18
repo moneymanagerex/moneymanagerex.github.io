@@ -1,4 +1,4 @@
-baseurl = "https://whalley.github.io/mmex.site2"
+baseurl = "https://moneymanagerex.github.io/mmex.site2"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
