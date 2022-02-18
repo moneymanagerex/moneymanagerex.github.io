@@ -2,14 +2,14 @@
 title: "Cross Platform"
 description: "Cross Platform"
 lead: ""
-date: 2020-10-06T08:49:15+00:00
-lastmod: 2020-10-06T08:49:15+00:00
+date: 2022-02-18
 draft: false
 images: []
 menu:
   docs:
     parent: "Features"
 toc: true
+weight: 120
 ---
 
 Money Manager EX can run on practically every Operating System.

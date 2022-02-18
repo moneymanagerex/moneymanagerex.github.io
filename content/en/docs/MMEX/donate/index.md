@@ -2,8 +2,7 @@
 title: "Donate"
 description: "How to donate to the project"
 lead: ""
-date: 2020-10-06T08:49:15+00:00
-lastmod: 2020-10-06T08:49:15+00:00
+date: 2022-02-18
 draft: false
 images: []
 menu:

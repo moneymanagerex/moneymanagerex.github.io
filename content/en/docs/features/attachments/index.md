@@ -2,14 +2,14 @@
 title: "Attachments"
 description: "Attachments"
 lead: ""
-date: 2020-10-06T08:49:15+00:00
-lastmod: 2020-10-06T08:49:15+00:00
+date: 2022-02-18
 draft: false
 images: []
 menu:
   docs:
     parent: "Features"
 toc: true
+weight: 80
 ---
 
 Money Manager EX allows adding every file as attachments for one of its elements (like transactions, accounts, assets, etc..)

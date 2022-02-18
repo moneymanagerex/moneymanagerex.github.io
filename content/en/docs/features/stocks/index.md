@@ -2,14 +2,14 @@
 title: "Stocks & Shares"
 description: "Stocks & Shares"
 lead: ""
-date: 2020-10-06T08:49:15+00:00
-lastmod: 2020-10-06T08:49:15+00:00
+date: 2022-02-18
 draft: false
 images: ["Stock-Edit-Screen.png", "Share-Edit-Screen.png"]
 menu:
   docs:
     parent: "Features"
 toc: true
+weight: 50
 ---
 
 Money Manager Ex allows the tracking of Stocks and Shares to be incorporated with our general day to day transactions. Stocks and Shares have been updated to allow money from our general accounts to be transferred to and from our investments. This also allows the payment of dividends to be recorded against our stock. To allow this to occur, a Share account is created when we create new stock. This also allows us to purchase more shares against this stock, or sell shares from a particular stock.

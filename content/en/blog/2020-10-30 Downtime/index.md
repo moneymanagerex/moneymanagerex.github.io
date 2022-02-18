@@ -3,7 +3,6 @@ title: "Explanation on Downtime"
 description: "A short explanation of what happened."
 lead: "A short explanation of what happened."
 date: 2020-10-30
-lastmod: 2020-10-30
 draft: false
 weight: 50
 images: ["mmex_vps_down.png"]

@@ -2,14 +2,14 @@
 title: "General Reports"
 description: "General Reports"
 lead: ""
-date: 2020-10-06T08:49:15+00:00
-lastmod: 2020-10-06T08:49:15+00:00
+date: 2022-02-18
 draft: false
 images: [GeneralReport_Wizard.png]
 menu:
   docs:
     parent: "Features"
 toc: true
+weight: 90
 ---
 
 Money Manager EX allows to create custom and heavy personalized report without external tools but using an internal templating engine.

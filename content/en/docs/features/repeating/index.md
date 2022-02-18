@@ -2,14 +2,14 @@
 title: "Repeating Transactions"
 description: "Repeating Transactions"
 lead: ""
-date: 2020-10-06T08:49:15+00:00
-lastmod: 2020-10-06T08:49:15+00:00
+date: 2022-02-18
 draft: false
 images: []
 menu:
   docs:
     parent: "Features"
 toc: true
+weight: 40
 ---
 
 Money Manager EX allows creating recurring transactions to track financial activities that occur at regular intervals, such as the payment of a bill or a monthly mortgage.

@@ -1,10 +1,13 @@
-# Meta Data for SEO
 
 ## Homepage
 title = "MoneyManager Ex"
+lead = "Free, easy-to-use, personal finance software"
+description = "Open-source, cross-platform, software that helps you organize your finances and keep track of where, when and to who the money goes. It is also a great tool to get a bird's eye view of your financial worth."
 titleSeparator = "-"
-titleAddition = "Money Manager Ex"
-description = "Free, easy-to-use, personal finance software"
+
+## Latest MMEX build
+mmexBuild = "1.5.13"
+mmexBuildBase = "https://github.com/moneymanagerex/moneymanagerex/releases/download/"
 
 ## Documentation
 # docsVersion = "0.3"
@@ -50,9 +53,9 @@ footer = "Powered by <a class=\"text-muted\" href=\"https://www.github.com/\">Gi
 copyRight = "Copyright (c) 2022 MoneyManager Ex"
 
 # Alert
-alert = false
+alert = true
 alertDismissable = true
-alertText = ""
+alertText = "This is a beta of the new MoneyMangerEx home page. Some features may be absent or not fully working yet."
 
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
@@ -68,15 +71,15 @@ lastMod = false
   lazySizes = true
   clipBoard = true
   instantPage = true
-  flexSearch = false
+  flexSearch = true
   darkMode = false
   bootStrapJs = true
-  breadCrumb = false
+  breadCrumb = true
   highLight = true
   kaTex = false
   multilingualMode = false
   docsVersioning = false
-  fullWidth = false
+  fullWidth = true
 
 [menu]
   [menu.section]

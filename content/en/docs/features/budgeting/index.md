@@ -2,14 +2,14 @@
 title: "Budgeting"
 description: "Budgeting"
 lead: ""
-date: 2020-10-06T08:49:15+00:00
-lastmod: 2020-10-06T08:49:15+00:00
+date: 2022-02-18
 draft: false
 images: []
 menu:
   docs:
     parent: "Features"
 toc: true
+weight: 70
 ---
 Money Manager EX allows you to set up a budget for a year and/or a month.
 

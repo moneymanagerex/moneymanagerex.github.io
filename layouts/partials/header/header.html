@@ -173,3 +173,8 @@
   </aside>
 </div>
 {{ end -}}
+
+<!-- Special intro for the index page -->
+{{ if .IsHome  -}}
+  {{ partial "index/opening.html" . }}
+{{ end -}}

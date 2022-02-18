@@ -1,9 +1,8 @@
 ---
-title: "Latest"
+title: "Latest Builds"
 description: "Latest download"
 lead: ""
-date: 2020-10-06T08:49:15+00:00
-lastmod: 2020-10-06T08:49:15+00:00
+date: 2022-02-18
 draft: false
 images: []
 menu:
@@ -13,11 +12,7 @@ toc: true
 weight: 10
 ---
 
-## Full stable release downloads
-
-Here is a selection of the most recent releases if you don't want to the take the current version or the current version is not yet available for your platform
-
-For the latest development/Beta builds click here.
+Here are the latest builds for various platforms.
 
 ### v1.5.13 (2022.02.06) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.5.13)
 
@@ -26,6 +21,10 @@ For the latest development/Beta builds click here.
 - [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.13/mmex-1.5.13-Darwin.dmg)
 - [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.13/mmex-1.5.13-win64-portable.zip)
 - [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.13/mmex-1.5.13-win32-portable.zip)
+
+For previous releases click [here](../all).
+
+For the latest development/Beta builds click [here](../development).
 
 ## Upgrading from v1.4.0?
 
