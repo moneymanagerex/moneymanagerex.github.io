@@ -8,7 +8,7 @@
           <h1 class="display-5 fw-bolder mb-2">{{ .Title }}</h1>
           <p class="lead fw-normal mb-4">{{ .Params.lead | safeHTML }}</p>
           <div class="-grid gap-3 d-sm-flex justify-content-center">
-              <a class="btn btn-success btn-lg px-4" href="docs/downloads/latest"><i class="fas fa-download"></i>&nbsp;Download</a>
+              <a class="btn btn-primary btn-lg px-4" href="docs/downloads/latest"><i class="fas fa-download"></i>&nbsp;Download</a>
               <a class="btn btn-outline-dark btn-lg px-4" href="https://github.moneymanagerex.org/moneymanagerex/docs/en/index.html"><i class="fas fa-book-open"></i>&nbsp;Documentation</a>
               <a class="btn btn-warning btn-lg px-4" href="docs/mmex/donate"><i class="fas fa-donate"></i>&nbsp;Donate</a>
           </div>
@@ -43,7 +43,7 @@
                               onmouseover="this.style.background='WhiteSmoke';"
                               onmouseout="this.style.background='White';" 
                               class="col mb-5 h-100">
-                              <div class="feature bg-success bg-gradient text-white rounded-3 mb-3"><i class="{{ .icon }}"></i></div>
+                              <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="{{ .icon }}"></i></div>
                               <h2 class="h5">{{ .title }}</h2>
                               <p class="mb-0">{{ .text }}</p>
                           </div>

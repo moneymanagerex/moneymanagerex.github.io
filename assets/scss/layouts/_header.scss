@@ -14,25 +14,26 @@
   font-weight: $headings-font-weight;
 }
 
+/*
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:hover,
 .navbar-light .navbar-brand:active {
-  color: white;
+  color: $body-color;
 }
+
+.navbar-light .navbar-nav .active .nav-link {
+  color: $primary;
+}
+*/
 
 .navbar {
   z-index: 1000;
-  background-color: rgb(2, 82, 2);
+  background-color: rgba(220, 252, 210, 0.95);
   border-bottom: 1px solid $gray-200;
-  color: white;
 
   /*
   margin-top: 4px;
   */
-}
-
-.navbar a {
-  color: white;
 }
 
 @include media-breakpoint-up(lg) {
@@ -96,7 +97,7 @@ button#doks-versions {
 }
 
 .offcanvas .nav-link {
-  color: white;
+  color: $body-color;
 }
 
 .doks-subnavbar {
@@ -114,7 +115,7 @@ button#doks-versions {
 
 .offcanvas .nav-link:hover,
 .offcanvas .nav-link:focus {
-  color: yellow;
+  color: $link-color;
 }
 
 .offcanvas .nav-link.active {
@@ -441,13 +442,4 @@ button#doks-versions {
 
 .dropdown-item:active {
   color: inherit;
-}
-
-.feature {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 3rem;
-  width: 3rem;
-  font-size: 1.5rem;
 }
