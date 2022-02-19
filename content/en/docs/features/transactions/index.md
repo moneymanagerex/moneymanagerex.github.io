@@ -25,3 +25,8 @@ Transactions are divided for each bank account and they could have different sta
 - **Followup**: This status marks transactions as needing more action. For example, you receive a balance statement from the financial institution and you notice that the transaction amount is different between what you recorded and what is in the statement. You can mark it as a flag for follow up so that you can follow up with the financial institution.
 
 - **Duplicate**: The status will be automatically be changed to duplicate if it is recognized as such.
+
+|    |    |
+| --- | --- |
+| ![](transaction1.png) | ![](transaction2.png) |
+| ![](transaction3.png) | |

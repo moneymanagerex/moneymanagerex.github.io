@@ -24,3 +24,9 @@ It currently supports three types of accounts:
 
 As it can be used in many countries, MMEX needs to consider the currency for the country of use. When creating a new database, the base currency is set to the currency used in the user's country. 
 If the user's currency setting is not listed in the default currencies, the user can create their currency listing. MMEX allows us to work with more than one currency. Each account has its currency setting and will default to the base currency. When we set accounts with different currencies, the transactions we create in these accounts will reflect the currency of the account.
+
+|    |    |
+| --- | --- |
+| ![](account1.png) | ![](account2.png) |
+| ![](account3.png) | ![](account4.png) |
+| ![](account5.png) |  |

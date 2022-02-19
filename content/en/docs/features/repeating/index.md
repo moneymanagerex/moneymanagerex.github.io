@@ -22,3 +22,7 @@ These special transactions:
 - Can be set up to activate allowing the user to adjust any values on the due date
 
  It's possible to achieve a high level of schedule customization:
+
+ |    |    |
+| --- | --- |
+| ![](repeating1.png) | ![](repeating2.png) |
