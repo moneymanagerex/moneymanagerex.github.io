@@ -4,7 +4,7 @@
 let osDetails = {
     icon: '',
     name: '',
-    build: ''
+    url: ''
 };
 
 if (navigator.userAgent.indexOf('Win') != -1) {
@@ -12,10 +12,10 @@ if (navigator.userAgent.indexOf('Win') != -1) {
     if (navigator.userAgent.indexOf('x64') != -1) 
     {
         osDetails.name ='Windows 64'
-        osDetails.build = 'win64.exe'
+        osDetails.url = '{{ .Site.Params.mmexBuildBase }}v{{ .Site.Params.mmexBuild }}/mmex-{{ .Site.Params.mmexBuild }}-win64.exe';
     } else {
         osDetails.name = 'Windows 32'
-        osDetails.build = 'win32.exe'
+        osDetails.url = '{{ .Site.Params.mmexBuildBase }}v{{ .Site.Params.mmexBuild }}/mmex-{{ .Site.Params.mmexBuild }}-win32.exe';
     }
 }
 
@@ -23,12 +23,19 @@ if (navigator.userAgent.indexOf('Mac') != -1)
 {
     osDetails.icon = 'fa-apple';
     osDetails.name = 'MacOS'
-    osDetails.build = 'Darwin.dmg'
+    osDetails.url = '{{ .Site.Params.mmexBuildBase }}v{{ .Site.Params.mmexBuild }}/mmex-{{ .Site.Params.mmexBuild }}-Darwin.dmg';
 }
 
 if (navigator.userAgent.indexOf('like Mac') != -1)
 {
     osDetails.name = ''    
+}
+
+if (navigator.userAgent.indexOf('Android') != -1) 
+{
+    osDetails.icon = 'fa-android';
+    osDetails.name = 'Android';
+    osDetails.url = 'https://android.moneymanagerex.org/';
 }
 
 updateOsDownloadButton(osDetails);
@@ -39,7 +46,7 @@ function updateOsDownloadButton(osDetails) {
     if (osDetails.name != '')
     {
         iconHtml = '<i class="fa-brands ' + osDetails.icon + '"></i>' + '&nbsp;Download for ' + osDetails.name;
-        url = '{{ .Site.Params.mmexBuildBase }}v{{ .Site.Params.mmexBuild }}/mmex-{{ .Site.Params.mmexBuild }}-' + osDetails.build;
+        url = osDetails.url;
     } else
     {
         document.getElementById('download-advanced').style.display = "none";
