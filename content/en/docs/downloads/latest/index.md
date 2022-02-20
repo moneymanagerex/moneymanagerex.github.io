@@ -10,6 +10,8 @@ menu:
     parent: "downloads"
 toc: true
 weight: 10
+aliases:
+  - /download   # Referenced from desktop app
 ---
 
 Here are the latest builds for various platforms.
