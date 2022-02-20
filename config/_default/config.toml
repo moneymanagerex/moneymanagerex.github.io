@@ -1,6 +1,6 @@
 baseurl = "https://github.moneymanagerex.org/"
 canonifyURLs = false
-disableAliases = true
+disableAliases = false
 disableHugoGeneratorInject = true
 enableEmoji = true
 enableGitInfo = false
