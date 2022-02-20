@@ -56,4 +56,68 @@ Here is a list of older builds
 - [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.8/mmex-1.5.8-win64-portable.zip)
 - [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.8/mmex-1.5.8-win32-portable.zip)
 
-{{< alert context="info" text="For even older builds have a look at the releases on <a href='https://github.com/moneymanagerex/moneymanagerex/releases'>GitHub</a>" />}}
+### v1.5.7 (2021.09.18) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.5.7)
+
+- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.7/mmex-1.5.7-win64.exe)
+- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.7/mmex-1.5.7-win32.exe)
+- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.7/mmex-1.5.7-Darwin.dmg)
+- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.7/mmex-1.5.7-win64-portable.zip)
+- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.7/mmex-1.5.7-win32-portable.zip)
+
+### v1.5.6 (2021.08.20) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.5.6)
+
+- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.6/mmex-1.5.6-win64.exe)
+- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.6/mmex-1.5.6-win32.exe)
+- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.6/mmex-1.5.6-Darwin.dmg)
+- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.6/mmex-1.5.6-win64-portable.zip)
+- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.6/mmex-1.5.6-win32-portable.zip)
+
+### v1.5.5 (2021.07.31) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.5.5)
+
+- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.5/mmex-1.5.5-win64.exe)
+- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.5/mmex-1.5.5-win32.exe)
+- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.5/mmex-1.5.5-Darwin.dmg)
+- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.5/mmex-1.5.5-win64-portable.zip)
+- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.5/mmex-1.5.5-win32-portable.zip)
+
+### v1.5.4 (2021.07.18) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.5.4)
+
+- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.4/mmex-1.5.4-win64.exe)
+- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.4/mmex-1.5.4-win32.exe)
+- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.4/mmex-1.5.4-Darwin.dmg)
+- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.4/mmex-1.5.4-win64-portable.zip)
+- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.4/mmex-1.5.4-win32-portable.zip)
+
+### v1.5.3 (2021.06.13) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.5.3)
+
+- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.3/mmex-1.5.3-win64.exe)
+- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.3/mmex-1.5.3-win32.exe)
+- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.3/mmex-1.5.3-Darwin.dmg)
+- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.3/mmex-1.5.3-win64-portable.zip)
+- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.3/mmex-1.5.3-win32-portable.zip)
+
+### v1.5.2 (2021.06.04) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.5.2)
+
+- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.2/mmex-1.5.2-win64.exe)
+- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.2/mmex-1.5.2-win32.exe)
+- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.2/mmex-1.5.2-Darwin.dmg)
+- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.2/mmex-1.5.2-win64-portable.zip)
+- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.2/mmex-1.5.2-win32-portable.zip)
+
+### v1.5.1 (2021.04.24) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.5.1)
+
+- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.1/mmex-1.5.1-win64.exe)
+- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.1/mmex-1.5.1-win32.exe)
+- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.1/mmex-1.5.1-Darwin.dmg)
+- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.1/mmex-1.5.1-win64-portable.zip)
+- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.1/mmex-1.5.1-win32-portable.zip)
+
+### v1.5.0 (2021.04.11) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.5.0)
+
+- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.0/mmex-1.5.0-win64.exe)
+- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.0/mmex-1.5.0-win32.exe)
+- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.0/mmex-1.5.0-Darwin.dmg)
+- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.0/mmex-1.5.0-win64-portable.zip)
+- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.0/mmex-1.5.0-win32-portable.zip)
+
+{{< alert context="info" text="Builds prior to v1.5 can be found on the releases section on <a href='https://github.com/moneymanagerex/moneymanagerex/releases'>GitHub</a>" />}}
