@@ -34,7 +34,7 @@ We implement a variety of security measures to maintain the safety of your perso
 
 ## Do we use cookies?
 
-We do not use cookies.
+See our [Cookie Policy](../cookiepolicy/)
 
 ## Do we disclose any information to outside parties?
 
@@ -68,4 +68,4 @@ By using our site, you consent to our websites privacy policy.
 
 If we decide to change our privacy policy, we will post those changes on this page, and/or update the Privacy Policy modification date below.
 
-*This policy was last modified on 2014-05-23*
+{{< alert context="info" text="This policy was last modified on 2022-02-20" />}}

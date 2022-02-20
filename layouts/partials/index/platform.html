@@ -1,3 +1,4 @@
+{{ if .IsHome  -}}
 <script>
 // Determine build details
 
@@ -55,3 +56,4 @@ function updateOsDownloadButton(osDetails) {
     document.getElementById('download-os').setAttribute('href', url);
 }
 </script>
+{{ end  -}}
