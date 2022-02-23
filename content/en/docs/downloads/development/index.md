@@ -22,6 +22,8 @@ weight: 20
 
 Under "Job name," choose x64 or Win32 > Artifacts > Portable (version recommended for unstable builds).
 
+{{< youtube id="3T4zIdcwDP0" title="How to download from Appveyor" >}}
+
 ### <i class="fa-brands fa-apple"></i>&nbsp;MacOS
 
 - [Repository of latest signed MacOS Universal builds](https://mmex.ipx.co.uk/)

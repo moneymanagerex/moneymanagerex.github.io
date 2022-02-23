@@ -21,4 +21,6 @@ It's possible to obtain a report that suits to a T with:
 
 We have created a [repository on Github](https://www.moneymanagerex.org/component/weblinks/weblink/31-reports/22-github-report-repository?Itemid=435&task=weblink.go) and a [forum section](https://www.moneymanagerex.org/component/weblinks/weblink/31-reports/23-forum-report-repository?Itemid=435&task=weblink.go) with lots of examples and discussions on how to develop and improve them.
 
-![](GeneralReport_Wizard.png)
+{{< figure src="GeneralReport_Wizard.gif" >}}
+
+{{< youtube id="1FDAhWueHm8" title="Guide to report making" >}}
