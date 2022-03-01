@@ -52,11 +52,6 @@ footer = "Powered by <a class=\"text-muted\" href=\"https://www.github.com/\">Gi
 # Feed
 copyRight = "Copyright (c) 2022 MoneyManager Ex"
 
-# Alert
-alert = true
-alertDismissable = true
-alertText = "This is a beta of the new MoneyMangerEx home page. Some features may be absent or not fully working yet."
-
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
 repoHost = "GitHub"
