@@ -12,7 +12,7 @@ toc: true
 weight: 130
 ---
 
-The Android version of MoneyManagerEx allows you to manage your expenses in full mobility, to verify the balance of your bank accounts, term accounts, stocks.
+The [Android version of MoneyManagerEx](https://android.moneymanagerex.org/) allows you to manage your expenses in full mobility, to verify the balance of your bank accounts, term accounts, stocks.
 
 It allows you to add new payees, new categories and add and/or modify transactions. Some of the reports offered in the desktop version are available to your Android tablet/smartphone. The Android app MoneyManagerEx daily notifies you about the overdue repeating transactions.
 

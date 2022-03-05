@@ -18,7 +18,7 @@ weight: 20
 
 ### <i class="fa-brands fa-windows"></i>&nbsp;Windows
 
-- [Access latest Appveyor development build](https://www.moneymanagerex.org/component/weblinks/weblink/30-download/35-download-unstable-windows?Itemid=435&task=weblink.go)
+- [Access latest Appveyor development build](https://ci.appveyor.com/project/moneymanagerex/moneymanagerex)
 
 Under "Job name," choose x64 or Win32 > Artifacts > Portable (version recommended for unstable builds).
 
