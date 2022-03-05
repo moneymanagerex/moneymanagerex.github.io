@@ -26,9 +26,13 @@ Here are the latest builds for various platforms.
 - [Linux Ubuntu 18.04.6 (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.13/mmex_1.5.13-1.bionic_amd64.deb)
 - [Linux openSUSE Tumbleweed (32/64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.13/mmex-1.5.13-1.SuSETumbleweedx86_64.rpm)
 
-For previous releases click [here](../all).
+For previous releases click [here](../older).
 
 For the latest development/Beta builds click [here](../development).
+
+## Looking for the Android Build?
+
+This can be found via the dedicated [MMEX Android](https://android.moneymanagerex.org/) site.
 
 ## Upgrading from v1.4.0?
 
