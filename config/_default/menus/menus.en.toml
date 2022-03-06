@@ -21,7 +21,7 @@
   name = "Documentation"
   identifier = "documentation"
   parent = "support"
-  url = "https://github.moneymanagerex.org/moneymanagerex/docs/en/index.html"
+  url = "https://moneymanagerex.org/moneymanagerex/docs"
   weigth = 1
 [[main]]
   name = "Forum"
