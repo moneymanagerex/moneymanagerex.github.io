@@ -69,3 +69,7 @@ Manually: This is achieved by editing the Current Date and Price in the Edit Sto
 - Selecting the House button will display the Stock Page in Yahoo.
 - Yahoo requires the stock symbol and the stock exchange separated by a dot. Example: AMP.AX
 - This can be changed using the Options/Others panel. This may also require changes to be made to the Stock Symbol
+
+## Demonstration Video of how to use the feature
+
+{{< youtube id="UJr2M743p10" title="Guide to rhow to use Stocks & Shares" >}}
