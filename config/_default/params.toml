@@ -6,7 +6,7 @@ description = "Open-source, cross-platform, software that helps you organize you
 titleSeparator = "-"
 
 ## Latest MMEX build
-mmexBuild = "1.5.13"
+mmexBuild = "1.5.14"
 mmexBuildBase = "https://github.com/moneymanagerex/moneymanagerex/releases/download/"
 
 ## Documentation
