@@ -16,15 +16,13 @@ aliases:
 
 Here are the latest builds for various platforms.
 
-### v1.5.13 (2022.02.06) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.5.13)
+### v1.5.14 (2022.04.14) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.5.14)
 
-- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.13/mmex-1.5.13-win64.exe)
-- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.13/mmex-1.5.13-win32.exe)
-- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.13/mmex-1.5.13-Darwin.dmg)
-- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.13/mmex-1.5.13-win64-portable.zip)
-- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.13/mmex-1.5.13-win32-portable.zip)
-- [Linux Ubuntu 18.04.6 (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.13/mmex_1.5.13-1.bionic_amd64.deb)
-- [Linux openSUSE Tumbleweed (32/64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.13/mmex-1.5.13-1.SuSETumbleweedx86_64.rpm)
+- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.14/mmex-1.5.14-win64.exe)
+- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.14/mmex-1.5.14-win32.exe)
+- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.14/mmex-1.5.14-Darwin.dmg)
+- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.14/mmex-1.5.14-win64-portable.zip)
+- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.14/mmex-1.5.14-win32-portable.zip)
 
 For previous releases click [here](../older).
 
