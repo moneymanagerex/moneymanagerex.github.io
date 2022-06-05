@@ -26,7 +26,7 @@ Here are the latest builds for various platforms.
 - [Linux Ubuntu 18.04 (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.14/mmex_1.5.14-1.bionic_amd64.deb)
 - [Linux Ubuntu 20.04 (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.14/mmex_1.5.14-1.focal_amd64.deb)
 - [Linux Ubuntu 22.04 (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.14/mmex_1.5.14-1.jammy_amd64.deb)
-- [Linux openSUSE Tumbleweed (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.14/mmex-1.5.14-1.x86_64.rpm)
+- [Linux openSUSE Tumbleweed (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.14/mmex-1.5.14-1_SuseTumbleweed.x86_64.rpm)
 
 If you have issues with the Ubuntu builds then review the advice [here](https://github.com/moneymanagerex/moneymanagerex/issues/4154#issuecomment-1106597921)
 
