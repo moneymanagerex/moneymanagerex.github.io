@@ -8,6 +8,8 @@ images: []
 menu:
   docs:
     parent: "MMEX"
+aliases:
+  - /donate
 toc: true
 ---
 
