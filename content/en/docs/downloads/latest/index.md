@@ -23,6 +23,10 @@ Here are the latest builds for various platforms.
 - [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.16/mmex-1.5.16-Darwin.dmg)
 - [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.16/mmex-1.5.16-win64-portable.zip)
 - [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.16/mmex-1.5.16-win32-portable.zip)
+- [Linux Ubuntu 18.04 (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.16/mmex-1.5.16-1.bionic_amd64.deb)
+- [Linux Ubuntu 20.04 (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.16/mmex-1.5.16-1.focal_amd64.deb)
+- [Linux Ubuntu 22.04 (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.16/mmex-1.5.16-1.jammy_amd64.deb)
+- [Linux openSUSE Tumbleweed (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.16/mmex-1.5.16-1.SuseTumbleweed.x86_64.rpm)
 
 If you have issues with the Ubuntu builds then review the advice [here](https://github.com/moneymanagerex/moneymanagerex/issues/4154#issuecomment-1106597921)
 
