@@ -26,7 +26,7 @@ Under "Job name," choose x64 or Win32 > Artifacts > Portable (version recommende
 
 ### <i class="fa-brands fa-apple"></i>&nbsp;MacOS
 
-- [Repository of latest signed MacOS Universal builds](https://mmex.ipx.co.uk/)
+- [Repository of latest signed MacOS Universal builds](https://tinyurl.com/mmex-mac-betas)
 
 ### <i class="fa-brands fa-linux"></i>&nbsp;Linux
 
