@@ -14,6 +14,17 @@ weight: 30
 
 Here is a list of older builds
 
+### v1.5.16 (2022.06.23) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.5.16)
+
+- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.16/mmex-1.5.16-win64.exe)
+- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.16/mmex-1.5.16-win32.exe)
+- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.16/mmex-1.5.16-Darwin.dmg)
+- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.16/mmex-1.5.16-win64-portable.zip)
+- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.16/mmex-1.5.16-win32-portable.zip)
+- [Linux Ubuntu 18.04 (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.16/mmex-1.5.16-1.bionic_amd64.deb)
+- [Linux Ubuntu 20.04 (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.16/mmex-1.5.16-1.focal_amd64.deb)
+- [Linux Ubuntu 22.04 (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.16/mmex-1.5.16-1.jammy_amd64.deb)
+- [Linux openSUSE Tumbleweed (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.16/mmex-1.5.16-1.SuseTumbleweed.x86_64.rpm)
 ### v1.5.15 (2022.06.16) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.5.15)
 
 - [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.15/mmex-1.5.15-win64.exe)
