@@ -16,13 +16,13 @@ aliases:
 
 Here are the latest builds for various platforms.
 
-### v1.5.17 (2022.07.17) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.5.17)
+### v1.5.18 (2022.07.28) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.5.18)
 
-- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.17/mmex-1.5.17-win64.exe)
-- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.17/mmex-1.5.17-win32.exe)
-- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.17/mmex-1.5.17-Darwin.dmg)
-- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.17/mmex-1.5.17-win64-portable.zip)
-- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.17/mmex-1.5.17-win32-portable.zip)
+- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.18/mmex-1.5.18-win64.exe)
+- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.18/mmex-1.5.18-win32.exe)
+- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.18/mmex-1.5.18-Darwin.dmg)
+- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.18/mmex-1.5.18-win64-portable.zip)
+- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.18/mmex-1.5.18-win32-portable.zip)
 
 If you have issues with the Ubuntu builds then review the advice [here](https://github.com/moneymanagerex/moneymanagerex/issues/4154#issuecomment-1106597921)
 
