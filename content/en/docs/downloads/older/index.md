@@ -14,6 +14,14 @@ weight: 30
 
 Here is a list of older builds
 
+### v1.5.17 (2022.07.17) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.5.17)
+
+- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.17/mmex-1.5.17-win64.exe)
+- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.17/mmex-1.5.17-win32.exe)
+- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.17/mmex-1.5.17-Darwin.dmg)
+- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.17/mmex-1.5.17-win64-portable.zip)
+- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.17/mmex-1.5.17-win32-portable.zip)
+
 ### v1.5.16 (2022.06.23) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.5.16)
 
 - [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.16/mmex-1.5.16-win64.exe)
