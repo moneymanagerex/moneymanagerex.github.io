@@ -24,8 +24,6 @@ Here are the latest builds for various platforms.
 - [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.18/mmex-1.5.18-win64-portable.zip)
 - [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.18/mmex-1.5.18-win32-portable.zip)
 
-If you have issues with the Ubuntu builds then review the advice [here](https://github.com/moneymanagerex/moneymanagerex/issues/4154#issuecomment-1106597921)
-
 For previous releases click [here](../older).
 
 For the latest development/Beta builds click [here](../development).
