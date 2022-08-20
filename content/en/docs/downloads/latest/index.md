@@ -16,13 +16,17 @@ aliases:
 
 Here are the latest builds for various platforms.
 
-### v1.5.18 (2022.07.28) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.5.18)
+### v1.5.19 (2022.08.19) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.5.19)
 
-- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.18/mmex-1.5.18-win64.exe)
-- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.18/mmex-1.5.18-win32.exe)
-- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.18/mmex-1.5.18-Darwin.dmg)
-- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.18/mmex-1.5.18-win64-portable.zip)
-- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.18/mmex-1.5.18-win32-portable.zip)
+- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.19/mmex-1.5.19-win64.exe)
+- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.19/mmex-1.5.19-win32.exe)
+- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.19/mmex-1.5.19-Darwin.dmg)
+- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.19/mmex-1.5.19-win64-portable.zip)
+- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.19/mmex-1.5.19-win32-portable.zip)
+- [Linux Ubuntu 18.04 Bionic (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.19/mmex_1.5.19-1_bionic_amd64.deb)
+- [Linux Ubuntu 20.04 Focal (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.19/mmex_1.5.19-1_focal_amd64.deb)
+- [Linux Ubuntu 22.04 Jammy (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.19/mmex_1.5.19-1_jammy_amd64.deb)
+- [Linux Fedora 36 (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.19/mmex-1.5.19-1.fc36.x86_64.rpm)
 
 For previous releases click [here](../older).
 
