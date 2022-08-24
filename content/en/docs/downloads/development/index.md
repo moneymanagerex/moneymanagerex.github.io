@@ -30,7 +30,7 @@ Under "Job name," choose x64 or Win32 > Artifacts > Portable (version recommende
 
 ### <i class="fa-brands fa-linux"></i>&nbsp;Linux
 
-- [Arch User Repo](https://aur.archlinux.org/packages/moneymanagerex-git/)
-- [Arch x86_64 (Community)](https://www.archlinux.org/packages/community/x86_64/moneymanagerex/)
+- [Arch User Repo Stable](https://aur.archlinux.org/packages/moneymanagerex/)
+- [Arch User Repo Development](https://aur.archlinux.org/packages/moneymanagerex-git/)
 - [Install Linux - other installation instructions](https://github.com/moneymanagerex/moneymanagerex/blob/master/INSTALL.md#linux)
 - [Build Linux from Source](https://github.com/moneymanagerex/moneymanagerex/blob/master/BUILD.md#linux)
