@@ -28,6 +28,7 @@ Here are the latest builds for various platforms.
 - [Linux Ubuntu 22.04 Jammy (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.20/mmex_1.5.20-Ubuntu.22.04.jammy_amd64.deb)
 - [Linux Fedora 36 (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.20/mmex-1.5.20-Fedora.36.ThirtySix.fc36.x86_64.rpm)
 - [Linux SUSE Tumbleweed (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.20/mmex-1.5.20-openSUSE.Tumbleweed.x86_64.rpm)
+- [Linux CentOS Stream 8 (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.20/mmex-1.5.20-CentOSStream.8.el8.x86_64.rpm)
 
 For previous releases click [here](../older).
 
