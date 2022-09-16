@@ -37,7 +37,7 @@ You should then have a selection of builds to download.
 
 {{< youtube id="tHmXW3w9Kvk" title="How to download CircleCI Linux builds" >}}
 
-- [Arch User Repo](https://aur.archlinux.org/packages/moneymanagerex-git/)
-- [Arch x86_64 (Community)](https://www.archlinux.org/packages/community/x86_64/moneymanagerex/)
+- [Arch User Repo Stable](https://aur.archlinux.org/packages/moneymanagerex/)
+- [Arch User Repo Development](https://aur.archlinux.org/packages/moneymanagerex-git/)
 - [Install Linux - other installation instructions](https://github.com/moneymanagerex/moneymanagerex/blob/master/INSTALL.md#linux)
 - [Build Linux from Source](https://github.com/moneymanagerex/moneymanagerex/blob/master/BUILD.md#linux)
