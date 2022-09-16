@@ -30,6 +30,13 @@ Under "Job name," choose x64 or Win32 > Artifacts > Portable (version recommende
 
 ### <i class="fa-brands fa-linux"></i>&nbsp;Linux
 
+- [Access latest CircleCI development build](https://app.circleci.com/pipelines/github/moneymanagerex/moneymanagerex)
+
+Select the latest successful "mmex-builds" workflow, the select "build-linux", then "ARTIFACTS".
+You should then have a selection of builds to download.
+
+{{< youtube id="tHmXW3w9Kvk" title="How to download CircleCI Linux builds" >}}
+
 - [Arch User Repo](https://aur.archlinux.org/packages/moneymanagerex-git/)
 - [Arch x86_64 (Community)](https://www.archlinux.org/packages/community/x86_64/moneymanagerex/)
 - [Install Linux - other installation instructions](https://github.com/moneymanagerex/moneymanagerex/blob/master/INSTALL.md#linux)
