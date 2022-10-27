@@ -32,13 +32,6 @@ if (navigator.userAgent.indexOf('like Mac') != -1)
     osDetails.name = ''    
 }
 
-if (navigator.userAgent.indexOf('Android') != -1) 
-{
-    osDetails.icon = 'fa-android';
-    osDetails.name = 'Android';
-    osDetails.url = 'https://android.moneymanagerex.org/';
-}
-
 updateOsDownloadButton(osDetails);
 
 function updateOsDownloadButton(osDetails) {

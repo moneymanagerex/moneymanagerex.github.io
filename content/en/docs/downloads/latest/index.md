@@ -33,15 +33,7 @@ For previous releases click [here](../older).
 
 For the latest development/Beta builds click [here](../development).
 
-## Looking for the Android Build?
-
-This can be found via the dedicated [MMEX Android](https://android.moneymanagerex.org/) site.
-
 ## Upgrading from v1.4.0?
 
 If you get the database error, "MMEX database version 13 doesn't work with this MMEX version," 
 then see [Steps to convert your database from 1.4.x](https://github.com/moneymanagerex/moneymanagerex/issues/2353)
-
-The latest Money Manager Ex release uses the database structure of the 1.3.x series and discontinued the structure of version 1.4.x. 
-This maintains compatibility with the mobile app.
-
