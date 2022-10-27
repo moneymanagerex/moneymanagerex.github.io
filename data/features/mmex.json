@@ -62,11 +62,6 @@
             "title": "Cross Platform",
             "text": "We provide builds for the most common operating systems: Windows, MacOS and Linux Ubuntu. It is possible to use it also on other OS building it directly from source code."
         },
-        {   "name": "android",
-            "icon": "fab fa-android",
-            "title": "Android Version",
-            "text": "Port of the PC application, it maintains the best features of the desktop application, while adding mobility and synchronization. It requires Android 2.2 (Froyo) or higher."
-        },
         {   "name": "opensource",
             "icon": "fab fa-github",
             "title": "Free & Open Source",
