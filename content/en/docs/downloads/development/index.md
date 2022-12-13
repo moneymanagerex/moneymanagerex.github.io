@@ -18,7 +18,7 @@ weight: 20
 
 ### <i class="fa-brands fa-windows"></i>&nbsp;Windows
 
-- [Access latest Appveyor development build](https://ci.appveyor.com/project/moneymanagerex/moneymanagerex)
+- [Access latest Appveyor development build](https://ci.appveyor.com/project/whalley/moneymanagerex)
 
 Under "Job name," choose x64 or Win32 > Artifacts > Portable (version recommended for unstable builds).
 
