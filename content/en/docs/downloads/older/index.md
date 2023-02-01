@@ -2,7 +2,7 @@
 title: "Older Builds"
 description: "Older Builds"
 lead: ""
-date: 2022-12-18
+date: 2023-02-01
 draft: false
 images: []
 menu:
@@ -13,6 +13,19 @@ weight: 30
 ---
 
 Here is a list of older builds
+
+### v1.6.2 (2022.12.18) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.6.2)
+
+- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.6.2/mmex-1.6.2-win64.exe)
+- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.6.2/mmex-1.6.2-win32.exe)
+- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.6.2/mmex-1.6.2-Darwin.dmg)
+- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.6.2/mmex-1.6.2-win64-portable.zip)
+- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.6.2/mmex-1.6.2-win32-portable.zip)
+- [Linux Ubuntu 18.04 Bionic (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.6.2/mmex_1.6.2-Ubuntu.18.04.bionic_amd64.deb)
+- [Linux Ubuntu 20.04 Focal (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.6.2/mmex_1.6.2-Ubuntu.20.04.focal_amd64.deb)
+- [Linux Ubuntu 22.04 Jammy (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.6.2/mmex_1.6.2-Ubuntu.22.04.jammy_amd64.deb)
+- [Linux Fedora 36 (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.6.2/mmex-1.6.2-Fedora.36.ThirtySix.fc36.x86_64.rpm)
+- [Linux SUSE Tumbleweed (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.6.2/mmex-1.6.2-openSUSE.Tumbleweed.x86_64.rpm)
 
 ### v1.6.1 (2022.11.18) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.6.1)
 
