@@ -6,7 +6,7 @@ This is the README.md file for the [Money Manager Ex (MMEX)](https://moneymanage
 
 The website uses [Hugo](https://gohugo.io/) as the static site generator and the look-n-feel is based on the [Doks](https://getdoks.org/docs/prologue/introduction/) theme modified to meet our website needs.
 
-It includes
+It includes:
 
 - [BootStrap](https://github.com/twbs/bootstrap)
 - [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
