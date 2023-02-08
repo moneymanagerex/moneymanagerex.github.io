@@ -1,6 +1,6 @@
-# [Money Manager Ex (MMEX)](https://moneymanagerex.org/) website
+# Money Manager Ex (MMEX) website
 
-This is the README.md file for the Money Manager Ex (MMEX) website.
+This is the README.md file for the [Money Manager Ex (MMEX)](https://moneymanagerex.org/) website.
 
 ## Based on…
 
