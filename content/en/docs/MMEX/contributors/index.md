@@ -54,7 +54,7 @@ toc: true
 - Hebrew
     - Avi Markovitz
 - Hungarian
-    - Csaba, Zoltan Levardy
+    - Csaba, Zoltán Lévárdy
     - Toroka
 - Hindi
     - Ankur Jain
