@@ -1,10 +1,10 @@
-# Money Manager Ex (MMEX) Website
+# [Money Manager Ex (MMEX)](https://moneymanagerex.org/) website
 
 This is the README.md file for the Money Manager Ex (MMEX) website.
 
 ## Based on…
 
-The site uses [Hugo](https://gohugo.io/) as the static site generator and the look-n-feel is based on the [Doks](https://getdoks.org/docs/prologue/introduction/) theme modified to meet our site needs.
+The website uses [Hugo](https://gohugo.io/) as the static site generator and the look-n-feel is based on the [Doks](https://getdoks.org/docs/prologue/introduction/) theme modified to meet our website needs.
 
 It includes
 
