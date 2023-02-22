@@ -12,7 +12,7 @@ toc: true
 weight: 30
 ---
 
-Here is a list of older builds
+Here is a list of older builds. For platform/OS compatibility see [here](../compatibility).
 
 ### v1.6.2 (2022.12.18) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.6.2)
 
