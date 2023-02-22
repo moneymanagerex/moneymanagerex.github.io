@@ -1,0 +1,53 @@
+---
+title: "Compatibility"
+description: "Operating System Compatibilty"
+lead: ""
+date: 2023-02-22
+draft: false
+images: []
+menu:
+  docs:
+    parent: "Downloads"
+toc: true
+weight: 20
+---
+
+## Operating System Compatibilty
+
+This page details the operating systems and versions that are supported for use with MMEX and those that we know have issues. 
+
+We test our software against multiple operating systems to ensure compatibility with the currently available version of MMEX. Our developers are typically using the most recent versions of operating systems and we therefore rely on users reporting issues with earlier versions. 
+
+It should be noted that for operating systems not noted below MMEX may indeed work but 
+
+If you do encounter compatibilty issues not noted here, or indeed know of MMEX working with other versions of operating system, then please raise this an issue [here](https://github.com/moneymanagerex/moneymanagerex/labels/bug)
+
+### Windows
+
+- Windows 7 - Supported
+- Windows 8 - Supported
+- Windows 8.1 - Supported
+- Windows 10 - Supported
+- Windows 11 (Intel/ARM) - Supported
+
+### MacOS / OSX
+
+- macOS 10.10 - MMEX v1.6.1 is last supported version
+- macOS 10.11 - MMEX v1.6.1 is last supported version
+- macOS 10.12	Sierra - Supported
+- macOS 10.13	High Sierra - Supported
+- macOS 10.14	Mojave - Supported
+- macOS 10.15	Catalina - Supported
+- macOS 11 Big Sur (Intel/ARM) - Supported
+- macOS 12 Monterey (Intel/ARM)  - Supported
+- macOS 13 Ventura (Intel/ARM)  - Supported
+
+### Linux
+
+- CentOS Stream 8 - MMEX v1.5.20 is last supported version
+- Fedora 36 - Supported
+- Ubuntu 18.04 Bionic - Supported
+- Suse Leap - MMEX v1.5.12 is last supported version 
+- SUSE Tumbleweed - Supported
+- Ubuntu 20.04 Focal - Supported
+- Ubuntu 22.04 Jammy - Supported

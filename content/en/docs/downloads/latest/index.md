@@ -14,7 +14,7 @@ aliases:
   - /download   # Referenced from desktop app
 ---
 
-Here are the latest builds for various platforms.
+Here are the latest builds for various platforms.  For platform/OS compatibility see [here](../compatibility).
 
 ### v1.6.3 (2023.02.01) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.6.3)
 
