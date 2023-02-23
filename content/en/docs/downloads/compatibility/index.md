@@ -18,7 +18,7 @@ This page details the operating systems and versions that are supported for use 
 
 We test our software against multiple operating systems to ensure compatibility with the currently available version of MMEX. Our developers are typically using the most recent versions of operating systems and we therefore rely on users reporting issues with earlier versions. 
 
-It should be noted that for operating systems not noted below MMEX may indeed work but 
+It should be noted that for operating systems not listed below MMEX may indeed work but we have had no reports of compatibility.
 
 If you do encounter compatibilty issues not noted here, or indeed know of MMEX working with other versions of operating system, then please raise this an issue [here](https://github.com/moneymanagerex/moneymanagerex/labels/bug)
 
