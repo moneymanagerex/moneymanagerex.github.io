@@ -29,7 +29,7 @@ Here are the latest builds for various platforms.  For platform/OS compatibility
 - [Linux Fedora 36 (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.6.3/mmex-1.6.3-Fedora.36.ThirtySix.fc36.x86_64.rpm)
 - [Linux SUSE Tumbleweed (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.6.3/mmex-1.6.3-openSUSE.Tumbleweed.x86_64.rpm)
 
-The latest Linux release can also be found as a Flatpak [Linux Flatpak](https://flathub.org/apps/org.moneymanagerex.MMEX)
+The latest Linux release can also be found as a [Linux Flatpak](https://flathub.org/apps/org.moneymanagerex.MMEX)
 
 For previous releases click [here](../older).
 
