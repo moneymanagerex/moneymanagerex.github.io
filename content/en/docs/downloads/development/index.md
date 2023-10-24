@@ -28,7 +28,7 @@ Under "Job name," choose x64 or Win32 > Artifacts > Portable (version recommende
 
 - [Repository of latest signed MacOS Universal builds](https://link.ipx.co.uk/mmex-mac-betas)
 
-### <i class="fa-brands fa-linux"></i>&nbsp;Linux
+### <i class="fa-brands fa-linux"></i>&nbsp;Linux (Flatpak)
 
 - [Access latest CircleCI development build](https://app.circleci.com/pipelines/github/moneymanagerex/moneymanagerex)
 

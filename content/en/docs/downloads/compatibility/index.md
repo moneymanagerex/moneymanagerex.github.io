@@ -41,6 +41,7 @@ If you do encounter compatibilty issues not noted here, or indeed know of MMEX w
 - macOS 11 Big Sur (Intel/ARM) - Supported
 - macOS 12 Monterey (Intel/ARM)  - Supported
 - macOS 13 Ventura (Intel/ARM)  - Supported
+- MacOS 14 Sonoma (Inetl/ARM) - Supported
 
 ### Linux
 
@@ -51,3 +52,4 @@ If you do encounter compatibilty issues not noted here, or indeed know of MMEX w
 - SUSE Tumbleweed - Supported
 - Ubuntu 20.04 Focal - Supported
 - Ubuntu 22.04 Jammy - Supported
+- Linux Flatpak - Supported
