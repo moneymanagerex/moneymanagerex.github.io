@@ -10,7 +10,7 @@ paginate = 7
 rssLimit = 10
 
 # Google Analytics tracking code
-googleAnalytics = "UA-51521761-1"
+googleAnalytics = "G-K8MBNK3HGN"
 
 #  Multilingual
 defaultContentLanguage = "en"
