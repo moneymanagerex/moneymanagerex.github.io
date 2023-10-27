@@ -9,7 +9,6 @@ menu:
   docs:
     parent: "MMEX"
 toc: false
-layout: analytics
 ---
 
 ## MMEX Desktop Analytics
