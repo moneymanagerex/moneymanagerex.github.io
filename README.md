@@ -15,4 +15,4 @@ Site build is kicked off on commit using the workflow [gh-pages.yml](https://git
 
 ## Site Structure
 
-Standard Hugo/Doks site structure is used, as described [here](https://getdoks.org/docs/prologue/directory-structure/)
+Standard Hugo/Doks site structure is used, as described [here](https://getdoks.org/docs/guides/project-structure/)
