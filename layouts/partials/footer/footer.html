@@ -1,6 +1,6 @@
 <footer class="footer text-muted">
-  {{ partial "google/adsense" . }}
   <div class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}">
+    <div class="row">{{ partial "google/adsense" . }}</div>
     <div class="row">
       <div class="col-lg-8 order-last order-lg-first">
         <ul class="list-inline">
