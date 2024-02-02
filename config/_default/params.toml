@@ -50,7 +50,7 @@ smallLimit = "300"
 footer = "Powered by <a class=\"text-muted\" href=\"https://www.github.com/\">GitHub</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
-copyRight = "Copyright (c) 2023 MoneyManager Ex"
+copyRight = "Copyright (c) 2024 MoneyManager Ex"
 
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
