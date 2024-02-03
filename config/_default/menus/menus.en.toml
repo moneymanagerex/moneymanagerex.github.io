@@ -17,7 +17,7 @@
   name = "Android"
   identifier = "android"
   weight = 20
-  url = "https://android.moneymanagerex.org/?utm_campaign=Website_MoneyManagerEX&utm_source=Menu"
+  url = "https://android.moneymanagerex.org/?utm_medium=Website_MoneyManagerEX&utm_source=Menu"
 
 # Support
 [[main]]
