@@ -11,6 +11,13 @@
   identifier = "news"
   weight = 15
   url = "blog"
+  
+# Android
+[[main]]
+  name = "Android"
+  identifier = "android"
+  weight = 20
+  url = "https://android.moneymanagerex.org/?utm_campaign=Website_MoneyManagerEX&utm_medium=Website_MoneyManagerEX&utm_source=Menu"
 
 # Support
 [[main]]
