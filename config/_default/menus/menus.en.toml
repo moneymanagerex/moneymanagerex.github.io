@@ -138,7 +138,7 @@
 [[social]]
   name = "GitHub"
   pre = "<i class=\"fa-brands fa-github\"></i>"
-  url = "https://github.com/moneymanagerex/moneymanagerex"
+  url = "https://github.com/moneymanagerex"
   post = "v0.1.0"
   weight = 10
 
