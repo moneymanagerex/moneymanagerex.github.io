@@ -19,6 +19,13 @@
   weight = 20
   url = "https://android.moneymanagerex.org/?utm_medium=Website_MoneyManagerEX&utm_source=Menu"
 
+# Forum
+[[main]]
+  name = "Forum"
+  identifier = "forum"
+  url = "https://forum.moneymanagerex.org/?utm_medium=Website_MoneyManagerEX&utm_source=Menu"
+  weight = 25
+
 # Support
 [[main]]
   name = "Support"
