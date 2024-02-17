@@ -44,18 +44,6 @@
   url = "https://forum.moneymanagerex.org/?utm_campaign=Website_MoneyManagerEX&utm_medium=Website_MoneyManagerEX&utm_source=Menu"
   weight = 2
 [[main]]
-  name = "Slack"
-  identifier = "slack"
-  parent = "support"
-  url = "http://slack.moneymanagerex.org/"
-  weight = 3
-[[main]]
-  name = "Wiki"
-  identifier = "wiki"
-  parent = "support"
-  url = "https://github.com/moneymanagerex/moneymanagerex/wiki"
-  weight = 4
-[[main]]
   name = "Report a Bug"
   identifier = "bug"
   parent = "support"
