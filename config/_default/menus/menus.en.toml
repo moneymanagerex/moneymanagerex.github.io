@@ -74,6 +74,24 @@
   url = "docs/mmex/donate"
   weight = 7
 
+# Translation
+[[main]]
+  name = "Translation"
+  identifier = "translation"
+  weight = 35
+[[main]]
+  name = "Desktop Translation"
+  identifier = "mmex4desktop"
+  parent = "translation"
+  url = "https://desktop-crowdin.moneymanagerex.org/"
+  weight = 1
+[[main]]
+  name = "Android Translation"
+  identifier = "mmex4android"
+  parent = "translation"
+  url = "https://android-crowdin.moneymanagerex.org/"
+  weight = 2
+  
 # Development
 [[main]]
   name = "Development"
@@ -91,12 +109,6 @@
   parent = "development"
   url = "https://github.com/moneymanagerex"
   weight = 2
-[[main]]
-  name = "Translations"
-  identifier = "translate"
-  parent = "development"
-  url = "https://crowdin.com/project/moneymanagerex"
-  weight = 3
 [[main]]
   name = "Donate"
   identifier = "donate"
