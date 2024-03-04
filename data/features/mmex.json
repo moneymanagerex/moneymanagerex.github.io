@@ -73,7 +73,7 @@
             "text": "For ultimate security store your database locally and enable encryption if you want it."
          },
          {   "name": "usecloud",
-            "icon": "fab fa-cloud",
+            "icon": "fas fa-cloud",
             "title": "Bring Your Own Cloud",
             "text": "Prefer to use cloud? If you want to host your database on your chosen cloud platform then you can."
          }
