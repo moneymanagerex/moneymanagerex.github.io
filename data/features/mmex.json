@@ -66,6 +66,18 @@
             "icon": "fab fa-github",
             "title": "Free & Open Source",
             "text": "OpenSource software, free download without ads and charges. It can be freely used, changed, and shared by anyone."
-        }
+        },
+        {   "name": "security",
+            "icon": "fas fa-shield",
+            "title": "Security",
+            "text": "For ultimate security store your database locally and enable encryption if you want it."
+         },
+         {   "name": "usecloud",
+            "icon": "fab fa-cloud",
+            "title": "Bring Your Own Cloud",
+            "text": "Prefer to use cloud? If you want to host your database on your chosen cloud platform then you can."
+         }
+    }
+
     ]
 }
