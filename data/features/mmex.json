@@ -70,7 +70,7 @@
         {   "name": "security",
             "icon": "fas fa-shield",
             "title": "Security",
-            "text": "For ultimate security store your database locally and enable encryption if you want it."
+            "text": "Your financial data, your control. AES encryption, unifying to AES256 for enhanced security. Future-proofing with multi-cipher support."
          },
          {   "name": "usecloud",
             "icon": "fas fa-cloud",
