@@ -12,6 +12,8 @@ toc: true
 weight: 110
 ---
 
-You don't have to use a cloud provider. You install MoneyManager EX locally and can store your data locally if you wish.
+Money Manager EX is your trusted financial companion that not only prioritizes seamless money management but also places a premium on the security and control of your financial data. Upon installation, the default setting ensures that your data is stored locally, giving you exclusive ownership and control.
 
-If you want to use encryption, you can. Just encrypt your database using a password and only you can then open and access the contents.
+For enhanced security, Money Manager EX provides AES encryption, implementing AES128 for the Desktop app and robust AES256 for the Android port. In our continuous commitment to security excellence, the next step involves unifying these encryption standards to AES256, ensuring seamless compatibility with SQLCipher.
+
+Looking ahead, we are dedicated to further strengthening your data's protection by considering the implementation of multi-ciphers in the future. This forward-thinking approach reflects our commitment to providing cutting-edge, adaptable encryption features, offering you peace of mind and control over the privacy of your financial records across all platforms
