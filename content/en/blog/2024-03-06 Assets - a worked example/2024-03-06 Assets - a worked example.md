@@ -11,7 +11,9 @@ contributors: ["Simon1D"]
 ---
 
 I've used bank accounts, credit card accounts and term accounts, transactions, and payees in mmex for many years now, previously on Windows and now on Linux (mmex v1.7.0), and am very happy with it - huge thanks from me to all the developers!
+
 Occasionally I would try and use assets and asset accounts but always got confused and gave up.
+
 This time I am determined to succeed, and wish there was a worked example (or even a tutorial) to help. I searched but failed to find anything other than a few asset-related exchanges here on the forum. Building on those exchanges, I offer the following. I hope I'm on the right lines (the details are made up, of course).
 
 ## Assets - a worked example
@@ -44,7 +46,9 @@ Whatever my net worth was during this period, immediately before the sale it can
 
 ## Comments
 In working out this example, I discovered by trial and error what has to happen in mmex for an asset value to change, and came to kind of understand why mmex handles assets the way it does, and also who the various payees should be in all the transactions, in particular, the ones that I invented: "the market" and "valuation".
+
 I assume that the asset account balance should be zero most of the time and only needs to be non-zero when any one of the purchase, the sale, or a valuation is in progress. It is the asset that appears on the dashboard as part of the net worth, not the asset account. Also, an asset can exist even if I don't own it but in that case its value should be zero, because value means value to me.
+
 Again, huge thanks to the developers and maintainers of mmex. If any would care to put me straight in this example, I'd be delighted.
 
 ### PS 
