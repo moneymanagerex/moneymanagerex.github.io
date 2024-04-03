@@ -59,8 +59,8 @@
         },
         {   "name": "crossplatform",
             "icon": "fas fa-desktop",
-            "title": "Cross-Platform",
-            "text": "We provide builds for the most common operating systems: Windows, macOS and Linux. It is possible to use it also on other operating systems building MMEX directly from source code."
+            "title": "Cross Platform",
+            "text": "We provide builds for the most common operating systems: Windows, MacOS and Linux Ubuntu. It is possible to use it also on other OS building it directly from source code."
         },
         {   "name": "opensource",
             "icon": "fab fa-github",
