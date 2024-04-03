@@ -19,7 +19,7 @@
         },
         {   "name": "repeating",
             "icon": "fas fa-redo-alt",
-            "title": "Repeating Transactions",
+            "title": "Scheduled Transactions",
             "text": "Special transactions set up in order to have the transaction entered into the database at some future date. They generally occur at regular intervals based on a schedule."
         },
         {   "name": "stocks",
