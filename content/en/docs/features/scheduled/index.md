@@ -25,4 +25,4 @@ These special transactions:
 
  |    |    |
 | --- | --- |
-| ![](repeating1.png) | ![](repeating2.png) |
+| ![](scheduled1.png) | ![](scheduled2.png) |
