@@ -55,7 +55,7 @@
         {   "name": "multilanguage",
             "icon": "fas fa-language",
             "title": "Multilingual",
-            "text": "User interface language translated in more than 30 languages. Documentation available in 13 languages."
+            "text": "User interface language translated into more than 30 languages. Documentation available in 13 languages."
         },
         {   "name": "crossplatform",
             "icon": "fas fa-desktop",
