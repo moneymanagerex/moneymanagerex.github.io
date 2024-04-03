@@ -4,8 +4,8 @@
     "features": [
         {  "name":"accounts",
             "icon": "fas fa-money-check",
-            "title": "Accounts & Currencies",
-            "text": "Wizard to simply create accounts and start to use MMEX. Multiple currencies for each account to have more flexibility."
+            "title": "Accounts and currencies",
+            "text": "Wizard to simply account creation to start using MMEX. Multiple currencies for each account to have more flexibility."
         },
         {   "name": "transactions",
             "icon": "fas fa-exchange-alt",
@@ -14,58 +14,58 @@
         },
         {   "name": "payees",
             "icon": "fas fa-user-tag",
-            "title": "Payees & Categories",
-            "text": "Categories indicate the reason an expenditure is made or an income is received. Payees are the people or the institutions that give money or who are paid for goods and services."
+            "title": "Payees and categories",
+            "text": "Categories indicate the reason an expenditure is made or an income is received. Payees are people and institutions that give money or who are paid for goods and services."
         },
         {   "name": "repeating",
             "icon": "fas fa-redo-alt",
-            "title": "Scheduled Transactions",
-            "text": "Special transactions set up in order to have the transaction entered into the database at some future date. They generally occur at regular intervals based on a schedule."
+            "title": "Scheduled transactions",
+            "text": "Transactions to be entered at a future date. They generally occur at regular intervals based on a schedule."
         },
         {   "name": "stocks",
             "icon": "fas fa-chart-line",
-            "title": "Stocks & Shares",
-            "text": "Allows the tracking of Stocks and Shares to be incorporated with your general day to day transactions."
+            "title": "Stocks and shares",
+            "text": "Allows the tracking of stocks and shares to be incorporated with general day-to-day transactions."
         },
         {   "name": "assets",
             "icon": "fas fa-house-user",
             "title": "Assets",
-            "text": "Track fixed assets and incorporate them within total financial worth. Every single asset could be undervalued/increased by a specific rate per year or left unchanged."
+            "text": "Track fixed assets and incorporate them within total financial worth. The value of each asset can optionally increased or decreased each year by a specific rate."
         },
         {   "name": "budgeting",
             "icon": "fas fa-shopping-basket",
-            "title": "Budgeting",
-            "text": "Set up a budget for a year and/or a month. Then compare money spent versus actual budget with specific or custom reports."
+            "title": "Budget Planner",
+            "text": "Set up a budget for a year and/or a month. Compare budgeted and actual values with specific or custom reports."
         },
         {   "name": "attachments",
             "icon": "fas fa-paperclip",
             "title": "Attachments",
-            "text": "Store all related documents attaching all file types to every element type (transaction, account, asset etc..). In this way it is possible to have always on hand invoices, receipts, contracts directly within MMEX."
+            "text": "Store documents (all file types) with the related element type (transaction, account, asset, etc). It enables invoices, receipts and contracts to be directly viewable within MMEX."
         },
         {   "name": "generalreports",
             "icon": "fas fa-chart-pie",
             "title": "General Reports",
-            "text": "Create your own reports with custom SQL queries, LUA functions and HTML + JS frontend. They will become available with standard reports and you can run them directly from report menu."
+            "text": "Create your own reports with custom SQL queries, LUA functions and HTML+JS frontend. They become available with standard reports and that can be run directly in Reports."
         },
         {   "name": "importexport",
             "icon": "fas fa-file-import",
-            "title": "Import & Export",
-            "text": "Import data from QIF (Quicken Interchange Format) and CSV (Comma-Separated Values) files. Export data to QIF, CSV and HTML."
+            "title": "Import and export",
+            "text": "Import data from CSV (Comma-Separated Values), XML (eXtensible Markup Language) and QIF (Quicken Interchange Format) files. Export data as CSV, XML, JSON, QIF and HTML files."
         },
         {   "name": "multilanguage",
             "icon": "fas fa-language",
-            "title": "Multi-Language",
-            "text": "More than 30 translations available that allow to have Money Manager EX interface in your native language. Documentation available in 8 different languages."
+            "title": "Multilingual",
+            "text": "User interface language translated in more than 30 languages. Documentation available in 13 languages."
         },
         {   "name": "crossplatform",
             "icon": "fas fa-desktop",
-            "title": "Cross Platform",
-            "text": "We provide builds for the most common operating systems: Windows, MacOS and Linux Ubuntu. It is possible to use it also on other OS building it directly from source code."
+            "title": "Cross-platform",
+            "text": "MMEX runs on the desktop (Linux, macOS and Windows) and mobile (Android) operating systems."
         },
         {   "name": "opensource",
             "icon": "fab fa-github",
-            "title": "Free & Open Source",
-            "text": "OpenSource software, free download without ads and charges. It can be freely used, changed, and shared by anyone."
+            "title": "Free and open-source",
+            "text": "Open-source software, ad-free and gratis download. MMEX can be freely used, changed, and shared by anyone."
         },
         {   "name": "security",
             "icon": "fas fa-shield",
