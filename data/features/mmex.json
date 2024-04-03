@@ -17,7 +17,7 @@
             "title": "Payees & Categories",
             "text": "Categories indicate the reason an expenditure is made or an income is received. Payees are the people or the institutions that give money or who are paid for goods and services."
         },
-        {   "name": "repeating",
+        {   "name": "scheduled",
             "icon": "fas fa-redo-alt",
             "title": "Scheduled Transactions",
             "text": "Special transactions set up in order to have the transaction entered into the database at some future date. They generally occur at regular intervals based on a schedule."
