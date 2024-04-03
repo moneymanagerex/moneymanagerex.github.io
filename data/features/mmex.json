@@ -19,7 +19,7 @@
         },
         {   "name": "repeating",
             "icon": "fas fa-redo-alt",
-            "title": "Repeating Transactions",
+            "title": "Scheduled Transactions",
             "text": "Special transactions set up in order to have the transaction entered into the database at some future date. They generally occur at regular intervals based on a schedule."
         },
         {   "name": "stocks",
@@ -49,7 +49,7 @@
         },
         {   "name": "importexport",
             "icon": "fas fa-file-import",
-            "title": "Import & Export",
+            "title": "Import and Export",
             "text": "Import data from QIF (Quicken Interchange Format) and CSV (Comma-Separated Values) files. Export data to QIF, CSV and HTML."
         },
         {   "name": "multilanguage",
@@ -59,13 +59,13 @@
         },
         {   "name": "crossplatform",
             "icon": "fas fa-desktop",
-            "title": "Cross Platform",
-            "text": "We provide builds for the most common operating systems: Windows, MacOS and Linux Ubuntu. It is possible to use it also on other OS building it directly from source code."
+            "title": "Cross-Platform",
+            "text": "We provide builds for the most common operating systems: Windows, macOS and Linux. It is possible to use it also on other operating systems building MMEX directly from source code."
         },
         {   "name": "opensource",
             "icon": "fab fa-github",
-            "title": "Free & Open Source",
-            "text": "OpenSource software, free download without ads and charges. It can be freely used, changed, and shared by anyone."
+            "title": "Free and Open-Source",
+            "text": "Open-source software, ad-free and gratis download. It can be freely used, changed, and shared by anyone."
         },
         {   "name": "security",
             "icon": "fas fa-shield",
