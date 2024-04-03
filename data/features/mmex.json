@@ -49,7 +49,7 @@
         },
         {   "name": "importexport",
             "icon": "fas fa-file-import",
-            "title": "Import and Export",
+            "title": "Import & Export",
             "text": "Import data from QIF (Quicken Interchange Format) and CSV (Comma-Separated Values) files. Export data to QIF, CSV and HTML."
         },
         {   "name": "multilanguage",
@@ -64,8 +64,8 @@
         },
         {   "name": "opensource",
             "icon": "fab fa-github",
-            "title": "Free and Open-Source",
-            "text": "Open-source software, ad-free and gratis download. It can be freely used, changed, and shared by anyone."
+            "title": "Free & Open Source",
+            "text": "OpenSource software, free download without ads and charges. It can be freely used, changed, and shared by anyone."
         },
         {   "name": "security",
             "icon": "fas fa-shield",
