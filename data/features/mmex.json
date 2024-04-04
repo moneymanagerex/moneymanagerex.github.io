@@ -5,7 +5,7 @@
         {  "name":"accounts",
             "icon": "fas fa-money-check",
             "title": "Accounts and currencies",
-            "text": "Wizard to simply account creation to start using MMEX. Multiple currencies for each account to have more flexibility."
+            "text": "Wizard to simplify account creation to start using MMEX. Multiple currencies for each account to have more flexibility."
         },
         {   "name": "transactions",
             "icon": "fas fa-exchange-alt",
