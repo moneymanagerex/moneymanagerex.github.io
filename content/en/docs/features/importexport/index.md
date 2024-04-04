@@ -17,7 +17,7 @@ MMEX allows to import and export data from different file types.
 Supported formats are:
 
 - QIF ([Quicken Interchange Format](https://en.wikipedia.org/wiki/Quicken_Interchange_Format))
-- CSV ([Comma-Separated Values](https://en.wikipedia.org/wiki/HTML))
+- CSV ([Comma-Separated Values](https://en.wikipedia.org/wiki/Comma-separated_values))
 - HTML ([HyperText Markup Language](https://en.wikipedia.org/wiki/HTML))
 - XML ([eXtensible Markup Language](https://en.wikipedia.org/wiki/XML))
 
