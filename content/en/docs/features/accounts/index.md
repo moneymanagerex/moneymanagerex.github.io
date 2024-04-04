@@ -12,7 +12,7 @@ toc: true
 weight: 10
 ---
 
-Money Manager EX allows you to simply create a new bank account with a simple wizard.
+MMEX allows you to simply create a new bank account with a simple wizard.
 
 It currently supports three types of accounts:
 
