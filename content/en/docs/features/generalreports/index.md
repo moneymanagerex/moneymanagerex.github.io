@@ -2,7 +2,7 @@
 title: "General Reports"
 description: "General Reports"
 lead: ""
-date: 2022-02-18
+date: 2024-04-04
 draft: false
 images: [GeneralReport_Wizard.png]
 menu:
