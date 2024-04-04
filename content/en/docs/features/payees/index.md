@@ -2,7 +2,7 @@
 title: "Payees"
 description: "Payees"
 lead: ""
-date: 2022-02-18
+date: 2024-04-04
 draft: false
 images: []
 menu:
@@ -12,9 +12,9 @@ toc: true
 weight: 30
 ---
 
-Money Manager EX allows assigning to every transaction a payee and one or more categories.
+MMEX allows assigning to every transaction a payee and one or more categories.
 
-Payees are the people or institutions that give us money, or the people or institutions that we pay, for our goods and services. It's possible to associate a specific category to the payee, in this way it's possible to have category pre-loaded when inserting new transactions.
+Payees are the people or institutions that give us money, or the people or institutions that we pay, for our goods and services. It’s possible to associate a specific category to the payee, in this way it’s possible to have category pre-loaded when inserting new transactions.
 
 A Category is generally used to record Income or Expenses. Because MMEX allows us to transfer money between accounts, it is also recommended to use categories to record transfers. This will allow us to determine what money is being transferred for a specific reason, such as a repayment to a loan. This will not be seen as an income or expense in the overall picture.
 
