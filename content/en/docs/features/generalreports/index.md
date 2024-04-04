@@ -12,7 +12,7 @@ toc: true
 weight: 90
 ---
 
-Money Manager EX allows to create custom and heavy personalized report without external tools but using an internal templating engine.
+MMEX allows to create custom and heavy personalized report without external tools but using an internal templating engine.
 
 It's possible to obtain a report that suits to a T with:
 - SQL queries to obtain needed data from the database
