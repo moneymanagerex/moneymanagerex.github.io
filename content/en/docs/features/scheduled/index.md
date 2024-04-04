@@ -2,7 +2,7 @@
 title: "Scheduled Transactions"
 description: "Scheduled Transactions"
 lead: ""
-date: 2024-04-03
+date: 2024-04-04
 draft: false
 images: []
 menu:
@@ -12,7 +12,7 @@ toc: true
 weight: 40
 ---
 
-Money Manager EX allows creating scheduled transactions to track financial activities that occur at once or at regular intervals, such as the payment of a bill or a monthly mortgage.
+MMEX allows creating scheduled transactions to track financial activities that occur at once or at regular intervals, such as the payment of a bill or a monthly mortgage.
 
 When one or more schedules are enabled, transactions will be created in your account as by schedules. They are also needed to create cash flow reports with the number of funds available, based on future commitments.
 
