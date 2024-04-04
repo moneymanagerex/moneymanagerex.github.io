@@ -2,7 +2,7 @@
 title: "Transactions"
 description: "Transactions"
 lead: ""
-date: 2022-02-18
+date: 2024-04-04
 draft: false
 images: []
 menu:
@@ -12,13 +12,13 @@ toc: true
 weight: 20
 ---
 
-Money Manager EX allows tracking incomes and expenses inserting new transactions for every money movement.
+MMEX allows tracking incomes and expenses inserting new transactions for every money movement.
 
 Transactions are divided for each bank account and they could have different status:
 
-- **Unreconciled**: When you enter a transaction, it initially is in the state of "Unreconciled". Which means the transaction has not been reconciled with your bank/credit card company's balance.
+- **Unreconciled**: When you enter a transaction, it initially is in the state of "Unreconciled". Which means the transaction has not been reconciled with your bank/credit card company’s balance.
 
-- **Reconciled**: Once the transaction is checked and verified with a credit card company's balance information, it can be marked as reconciled.
+- **Reconciled**: Once the transaction is checked and verified with a credit card company’s balance information, it can be marked as reconciled.
 
 - **Void**: If you entered a transaction that later became invalid or you canceled the transaction, instead of deleting the transaction you can also mark it as void so you have a record of the transaction.
 
