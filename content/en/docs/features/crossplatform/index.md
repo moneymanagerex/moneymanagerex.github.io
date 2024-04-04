@@ -1,8 +1,8 @@
 ---
-title: "Cross Platform"
-description: "Cross Platform"
+title: "Cross-platform"
+description: "Cross-platform"
 lead: ""
-date: 2022-02-18
+date: 2024-04-04
 draft: false
 images: []
 menu:
@@ -12,9 +12,9 @@ toc: true
 weight: 120
 ---
 
-Money Manager EX can run on practically every Operating System.
+MMEX can run on practically every operating system.
 
-In the [Download](/docs/downloads) area, it's possible to find builds for the major OS like Windows, macOS and Linux Ubuntu.
+In the [Download](/docs/downloads) area, it’s possible to find builds for Linux, macOS and Windows desktop operating systems.
 
 |    |    |
 | --- | --- |
