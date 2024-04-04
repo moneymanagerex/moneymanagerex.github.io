@@ -1,8 +1,8 @@
 ---
-title: "Stocks & Shares"
-description: "Stocks & Shares"
+title: "Stocks and shares"
+description: "Stocks and shares"
 lead: ""
-date: 2022-02-18
+date: 2024-04-04
 draft: false
 images: ["Stock-Edit-Screen.png", "Share-Edit-Screen.png"]
 menu:
@@ -12,7 +12,7 @@ toc: true
 weight: 50
 ---
 
-Money Manager Ex allows the tracking of Stocks and Shares to be incorporated with our general day to day transactions. Stocks and Shares have been updated to allow money from our general accounts to be transferred to and from our investments. This also allows the payment of dividends to be recorded against our stock. To allow this to occur, a Share account is created when we create new stock. This also allows us to purchase more shares against this stock, or sell shares from a particular stock.
+MMEx allows the tracking of Stocks and Shares to be incorporated with our general day to day transactions. Stocks and Shares have been updated to allow money from our general accounts to be transferred to and from our investments. This also allows the payment of dividends to be recorded against our stock. To allow this to occur, a Share account is created when we create new stock. This also allows us to purchase more shares against this stock, or sell shares from a particular stock.
 
 We often use the terms Stocks and Shares to mean the same thing. Here we refer to
 
@@ -20,13 +20,13 @@ Stocks as Companies
 - Shares as of the units of value within the company.
 - Generally, we would obtain Stocks via a Stock Broker or institution where we can then purchase or sell shares in a company.
 
-## Initialization of Stocks and Shares
+## Initialization of stocks and shares
 
 Before we can use Stocks and Shares we need to create a new account of type: Investment
 
 This account will allow us to create Stocks held by this investment. This is known as the Investment Account. Multiple accounts can be created to hold different stocks.
 
-## New Stocks
+## New stocks
 
 The creation of a Stock is now a two-stage process. When we select our Investment account from the navigation panel, we will display the Stock Portfolio for this investment. In this view when nothing is selected, a new Stock can be created.
 
@@ -38,7 +38,7 @@ This dialog is presented when we create a new stock or edit an existing stock. S
 
 ![](Stock-Edit-Screen.png)
 
-## New Shares 
+## New shares 
 
 The following dialog is displayed when we create a new transaction against our stock, or we edit a transaction in the Shares account for this stock. Shares can be added or removed from our stock when using the Share Transaction dialog.
 
@@ -55,11 +55,11 @@ This dialog represents the Investment portion (left) and the regular transaction
 
 ![](Share-Edit-Screen.png)
 
-## Share Purchase or Sale
+## Share purchase or sale
 
 A Share purchase or Share sale lot can be recorded as a new transaction on the Stock shown in the Stock Portfolio view. The portfolio view will show a summary of the total amount of shares held for each stock for this investment. The individual transactions will be recorded in the Shares Account, accessible via the navigation panel, thus giving a history of activity for this stock.
 
-## Current Price Update
+## Current price update
 
 This can be done manually or automatically
 
@@ -70,6 +70,6 @@ Manually: This is achieved by editing the Current Date and Price in the Edit Sto
 - Yahoo requires the stock symbol and the stock exchange separated by a dot. Example: AMP.AX
 - This can be changed using the Options/Others panel. This may also require changes to be made to the Stock Symbol
 
-## Demonstration Video of how to use the feature
+## Demonstration video of how to use the feature
 
 {{< youtube id="UJr2M743p10" title="Guide to rhow to use Stocks & Shares" >}}
