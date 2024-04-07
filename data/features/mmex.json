@@ -69,7 +69,7 @@
         },
         {   "name": "security",
             "icon": "fas fa-shield",
-            "title": "Security",
+            "title": "Safety & Security",
             "text": "Your financial data, your control. AES encryption, unifying to AES256 for enhanced security. Future-proofing with multi-cipher support."
          },
          {   "name": "usecloud",
