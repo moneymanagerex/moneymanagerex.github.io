@@ -12,22 +12,27 @@ toc: true
 weight: 110
 ---
 
-You are not tied to a cloud provider. 
+You are not tied to a specific cloud provider. With MMEX, you have the flexibility to store your database files using your chosen:
 
-You can store your database files using your chosen 
-- public cloud provider
-    - Google, Microsoft, DropBox, etc.
-- private cloud provider
-    - NextCloud, Synology NAS, etc
-- local storage + sync tools
-  - Synching, etc
+- **Public Cloud Provider**:
+    - Google Drive
+    - Microsoft OneDrive
+    - Dropbox, etc.
 
-Once the BYOC is set up on all your devices:
-For Desktop MMEX
-- Just locate your database on the shared area provided by your cloud provider.
-- the BYOC looks after synchronizing the data to the cloud.
+- **Private Cloud Provider**:
+    - NextCloud
+    - Synology NAS, etc.
 
-For Android MMEX
--  Open or create your database on the shared area provided by your cloud provider.
--  Enable Synchronization via `main menu -> Settings -> Synchronization`.
-    - interval as 5min and sync on start checked.
+- **Local Storage + Sync Tools**:
+    - Syncthing, etc.
+
+Once the Bring Your Own Cloud (BYOC) is set up on all your devices:
+
+**For Desktop MMEX**:
+- Simply locate your database on the shared area provided by your chosen cloud provider.
+- The BYOC system takes care of synchronizing the data to the cloud.
+
+**For Android MMEX**:
+- Open or create your database on the shared area provided by your cloud provider.
+- Enable synchronization via `Main Menu -> Settings -> Synchronization`.
+    - Set the interval to 5 minutes and ensure "Sync on start" is checked.
