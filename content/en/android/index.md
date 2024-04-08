@@ -1,3 +1,12 @@
+---
+title : "Android"
+description: "Android"
+lead: ""
+date: 2024-04-08
+draft: false
+images: []
+---
+
 # Money Manager Ex for Android
 
 Welcome to Money Manager Ex for Android documentation.
