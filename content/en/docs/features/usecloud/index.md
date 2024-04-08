@@ -36,3 +36,24 @@ Once the Bring Your Own Cloud (BYOC) is set up on all your devices:
 - Open or create your database on the shared area provided by your cloud provider.
 - Enable synchronization via `Main Menu -> Settings -> Synchronization`.
     - Set the interval to 5 minutes and ensure "Sync on start" is checked.
+
+
+Here's a simple diagram illustrating the synchronization process among the devices/platforms:
+```
++-----------+-----------+-----------+-----------+
+|   macOS   |  Windows  |   Linux   |  Android  |
+|   (MMEX)  |   (MMEX)  |   (MMEX)  |   (MMEX)  |
++-----+-----+-----+-----+-----+-----+-----+-----+
+      |           |           |           |
+      v           v           v           v
++-----+-----+-----+-----+-----+-----+-----+-----+
+| Database  | Database  | Database  | Database  |
+|   Files   |   Files   |   Files   |   Files   |
++-----------+-----------+-----------+-----------+
+      |           |           |           |
+      v           v           v           v
++----------------+----------------+-------------+
+|  Public Cloud  |  Private Cloud | Local Store |
+| (Google Drive) | (NextCloud)    | + Sync      |
++----------------+----------------+-------------+
+```
