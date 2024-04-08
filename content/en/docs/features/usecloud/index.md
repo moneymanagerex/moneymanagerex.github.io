@@ -52,8 +52,8 @@ Here's a simple diagram illustrating the synchronization process among the devic
 +-----------+-----------+-----------+-----------+
       |           |           |           |
       v           v           v           v
-+----------------+----------------+-------------+
-|  Public Cloud  |  Private Cloud | Local Store |
-| (Google Drive) | (NextCloud)    | + Sync      |
-+----------------+----------------+-------------+
++----------------+---------------+--------------+
+|  Public Cloud  | Private Cloud | Local Store  |
+| (Google Drive) | (NextCloud)   | + Sync       |
++----------------+---------------+--------------+
 ```
