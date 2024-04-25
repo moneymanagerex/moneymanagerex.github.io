@@ -10,7 +10,7 @@
         {   "name": "transactions",
             "icon": "fas fa-exchange-alt",
             "title": "Transactions",
-            "text": "Take note of all expenses and incoming in a clear view: divide and highlight them with different status. Search, filter and sort by every field to have a clear situation of bank accounts at any time."
+            "text": "Take note of all expenses and incoming in a clear view: divide and highlight them with different statuses. Search, filter, and sort by every field to have a clear situation of bank accounts at any time."
         },
         {   "name": "payees",
             "icon": "fas fa-user-tag",
@@ -20,12 +20,12 @@
         {   "name": "scheduled",
             "icon": "fas fa-redo-alt",
             "title": "Scheduled Transactions",
-            "text": "Special transactions set up in order to have the transaction entered into the database at some future date. They generally occur at regular intervals based on a schedule."
+            "text": "Special transactions set up to have the transaction entered into the database at some future date. They generally occur at regular intervals based on a schedule."
         },
         {   "name": "stocks",
             "icon": "fas fa-chart-line",
             "title": "Stocks & Shares",
-            "text": "Allows the tracking of Stocks and Shares to be incorporated with your general day to day transactions."
+            "text": "Allows the tracking of Stocks and Shares to be incorporated with your general day-to-day transactions."
         },
         {   "name": "assets",
             "icon": "fas fa-house-user",
@@ -40,12 +40,12 @@
         {   "name": "attachments",
             "icon": "fas fa-paperclip",
             "title": "Attachments",
-            "text": "Store all related documents attaching all file types to every element type (transaction, account, asset etc..). In this way it is possible to have always on hand invoices, receipts, contracts directly within MMEX."
+            "text": "Store all related documents attaching all file types to every element type (transaction, account, asset, etc..). In this way, it is possible to have always on hand invoices, receipts, and contracts directly within MMEX."
         },
         {   "name": "generalreports",
             "icon": "fas fa-chart-pie",
             "title": "General Reports",
-            "text": "Create your own reports with custom SQL queries, LUA functions and HTML + JS frontend. They will become available with standard reports and you can run them directly from report menu."
+            "text": "Create your reports with custom SQL queries, LUA functions, and HTML + JS frontend. They will become available with standard reports and you can run them directly from the report menu."
         },
         {   "name": "importexport",
             "icon": "fas fa-file-import",
@@ -60,7 +60,7 @@
         {   "name": "crossplatform",
             "icon": "fas fa-desktop",
             "title": "Cross Platform",
-            "text": "We provide builds for the most common operating systems: Windows, MacOS and Linux Ubuntu. It is possible to use it also on other OS building it directly from source code."
+            "text": "We provide builds for the most common operating systems: Windows, MacOS, Linux, and Android. It is possible to use it also on other OS building it directly from source code."
         },
         {   "name": "opensource",
             "icon": "fab fa-github",
