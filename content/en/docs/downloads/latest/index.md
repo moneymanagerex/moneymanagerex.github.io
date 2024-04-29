@@ -16,7 +16,7 @@ aliases:
 
 Here are the latest builds for various platforms.  For platform/OS compatibility see [here](../compatibility).
 
-### v1.8.0 (2023.12.26) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.8.0)
+### v1.8.0 (2024.04.29) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.8.0)
 
 - [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.8.0/mmex-1.8.0-win64.exe)
 - [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.8.0/mmex-1.8.0-win32.exe)
