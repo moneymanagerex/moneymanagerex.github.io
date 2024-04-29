@@ -6,7 +6,7 @@ description = "Open-source, cross-platform, software that helps you organize you
 titleSeparator = "-"
 
 ## Latest MMEX build
-mmexBuild = "1.7.0"
+mmexBuild = "1.8.0"
 mmexBuildBase = "https://github.com/moneymanagerex/moneymanagerex/releases/download/"
 
 ## Documentation
@@ -50,7 +50,7 @@ smallLimit = "300"
 footer = "Powered by <a class=\"text-muted\" href=\"https://www.github.com/\">GitHub</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
-copyRight = "Copyright (c) 2024 MoneyManager Ex"
+copyRight = "Copyright (c) 2022 MoneyManager Ex"
 
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
