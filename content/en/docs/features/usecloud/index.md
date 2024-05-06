@@ -57,3 +57,6 @@ Here's a simple diagram illustrating the synchronization process among the devic
 | (Google Drive) | (NextCloud)   | + Sync       |
 +----------------+---------------+--------------+
 ```
+|     |
+| --- |
+| ![](data_sync_workflow.png) |
