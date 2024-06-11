@@ -23,16 +23,18 @@ You are not tied to a specific cloud provider. With MMEX, you have the flexibili
     - NextCloud
     - Synology NAS, etc.
 
-- **Local Storage + Sync Tools**:
+- **Phone Storage + Sync Tools**:
     - Syncthing, etc.
 
 Once the Bring Your Own Cloud (BYOC) is set up on all your devices:
 
 **For Desktop MMEX**:
+- Install your preferred cloud provider client and set its synchronization
 - Simply locate your database on the shared area provided by your chosen cloud provider.
 - The BYOC system takes care of synchronizing the data to the cloud.
 
 **For Android MMEX**:
+- Install your preferred cloud provider client and set its synchronization
 - Open or create your database on the shared area provided by your cloud provider.
 - Enable synchronization via `Main Menu -> Settings -> Synchronization`.
     - Set the interval to 5 minutes and ensure "Sync on start" is checked.
@@ -53,8 +55,8 @@ Here's a simple diagram illustrating the synchronization process among the devic
       |           |           |           |
       v           v           v           v
 +----------------+---------------+--------------+
-|  Public Cloud  | Private Cloud | Local Store  |
-| (Google Drive) | (NextCloud)   | + Sync       |
+|  Public Cloud  | Private Cloud | Phone Store  |
+| (Google Drive) | (NextCloud)   | (Sync Tools) |
 +----------------+---------------+--------------+
 ```
 |     |
