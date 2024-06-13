@@ -5,7 +5,7 @@ lead: ""
 date: 2024-06-13
 draft: false
 weight: 50
-images: []
+images: ["files_nas.png", "mmex_nas.png", "mmex_first_open.png"]
 contributors: ["MMEX Team"]
 ---
 
@@ -50,9 +50,9 @@ Sync tool (e.g. `Syncthing`) will rely on phone storages (e.g. Documents, Downlo
 
 ## P.S.
 how to verify you Synology Drive is working well and connected with your phone and MMEX app.
-* Files app to explore Synology Drive 
-
-![](files_nas.png)
+* Files app can explore Synology Drive properly ![](files_nas.png)
+* MMEX app can explore/open Synology Drive properly ![](mmex_nas.png)
+* MMEX first open screen after install ![](mmex_first_open.png)
 
 ### LAST NOT LEAST
 Enable synchronization via `三 -> Settings -> Synchronization`.
