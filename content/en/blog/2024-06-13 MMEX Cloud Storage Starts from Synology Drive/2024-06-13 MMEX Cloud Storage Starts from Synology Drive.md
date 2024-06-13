@@ -52,7 +52,7 @@ Sync tool (e.g. Syncthing) will rely on phone storages (e.g. Documents, Download
 ## P.S.
 how to verify you Synology Drive is working well and connected with your phone and MMEX app.
 * Files app to explore Synology Drive 
-![files on nas](files_nas.png)
+![](files_nas.png)
 
 ### LAST NOT LEAST
 Enable synchronization via `三 -> Settings -> Synchronization`.
