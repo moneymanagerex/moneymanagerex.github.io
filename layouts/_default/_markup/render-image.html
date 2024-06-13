@@ -1,8 +1,8 @@
 {{ $image := "" -}}
-{{ if (urls.Parse.Destination).IsAbs }}
-  {{ $image = resources.GetRemote.Destination -}}
+{{ if (urls.Parse .Destination).IsAbs }}
+  {{ $image = resources.GetRemote .Destination -}}
 {{ else -}}
-  {{ $image = resources.GetMatch.Destination -}}
+  {{ $image = resources.GetMatch .Destination -}}
 {{ end -}}
 {{ with $image -}}
   {{ $lqip := $image.Resize site.Params.lqipWidth -}}
