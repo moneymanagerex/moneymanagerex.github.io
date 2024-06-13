@@ -6,7 +6,7 @@ date: 2024-06-13
 lastmod: 2024-06-13
 draft: false
 weight: 50
-images: ["files_nas.png", "mmex_first_open.png", "mmex_nas.png"]
+images: ["files_nas.png"]
 contributors: ["MMEX"]
 ---
 
@@ -53,7 +53,7 @@ Sync tool (e.g. Syncthing) will rely on phone storages (e.g. Documents, Download
 how to verify you Synology Drive is working well and connected with your phone and MMEX app.
 |    |    |    |
 | --- | --- | --- |
-| ![files on nas](files_nas.png) | ![mmex on nas](mmex_nas.png) | ![mmex first open](mmex_first_open.png) |
+| ![files on nas](files_nas.png) | |  |
 
 
 ### LAST NOT LEAST
