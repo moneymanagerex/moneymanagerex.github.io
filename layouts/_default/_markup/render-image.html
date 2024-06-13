@@ -2,7 +2,7 @@
 {{ if (urls.Parse .Destination).IsAbs }}
   {{ $image = resources.GetRemote .Destination -}}
 {{ else -}}
-  {{ $image = resources.GetMatch .Destination -}}
+  {{ $image = .Page.Resources.GetMatch .Destination -}}
 {{ end -}}
 {{ with $image -}}
   {{ $lqip := $image.Resize site.Params.lqipWidth -}}
