@@ -3,7 +3,6 @@ title: "MMEX Cloud Storage Starts from Synology Drive"
 description: ""
 lead: ""
 date: 2024-06-13
-lastmod: 2024-06-13
 draft: false
 weight: 50
 images: []
@@ -47,7 +46,7 @@ Essentially, we need a device with Android 5.1 or newer, and a cloud provider ac
 Synology Drive is a private cloud solution, and other public and private clouds would follow the similar setups.
 
 ## Sync tools
-Sync tool (e.g. Syncthing) will rely on phone storages (e.g. Documents, Downloads) and detaileds is TBD
+Sync tool (e.g. `Syncthing`) will rely on phone storages (e.g. Documents, Downloads) and detaileds is TBD
 
 ## P.S.
 how to verify you Synology Drive is working well and connected with your phone and MMEX app.
