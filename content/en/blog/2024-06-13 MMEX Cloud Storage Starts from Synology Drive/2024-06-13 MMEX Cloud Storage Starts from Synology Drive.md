@@ -1,7 +1,7 @@
 ---
 title: "MMEX Cloud Storage Starts from Synology Drive"
-description: "MMEX Cloud Storage Starts from Synology Drive"
-lead: "MMEX Cloud Storage Starts from Synology Drive"
+description: ""
+lead: ""
 date: 2024-06-13
 lastmod: 2024-06-13
 draft: false
@@ -49,8 +49,9 @@ Synology Drive is a private cloud solution, and other public and private clouds 
 ## Sync tools
 Sync tool (e.g. Syncthing) will rely on phone storages (e.g. Documents, Downloads) and detaileds is TBD
 
-## PS
+## P.S.
 how to verify you Synology Drive is working well and connected with your phone and MMEX app.
+* Files app to explore Synology Drive ![files on nas](files_nas.png)
 
 ### LAST NOT LEAST
 Enable synchronization via `三 -> Settings -> Synchronization`.
