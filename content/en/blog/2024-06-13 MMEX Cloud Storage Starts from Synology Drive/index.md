@@ -52,6 +52,7 @@ To verify that your Synology Drive is properly connected with your phone and MME
 3. Verify the MMEX first open screen after installation.
 ![](mmex_first_open.png)
 
+
 ## Enable Synchronization
 Enable synchronization in the MMEX app via `三 -> Settings -> Synchronization`.
 
