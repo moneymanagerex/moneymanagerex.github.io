@@ -6,7 +6,7 @@ date: 2024-06-13
 lastmod: 2024-06-13
 draft: false
 weight: 50
-images: [files_nas.png mmex_first_open.png	mmex_nas.png]
+images: ["files_nas.png", "mmex_first_open.png", "mmex_nas.png"]
 contributors: ["MMEX"]
 ---
 
