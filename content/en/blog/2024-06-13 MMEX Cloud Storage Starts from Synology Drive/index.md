@@ -46,11 +46,11 @@ Sync tools (e.g., `Syncthing`) will rely on phone storage (e.g., Documents, Down
 ## Verifying Synology Drive Connection
 To verify that your Synology Drive is properly connected with your phone and MMEX app:
 1. Ensure the Files app can access Synology Drive properly.
-![](files_nas.png "500px")
+![](files_nas.png)
 2. Confirm the MMEX app can access/open Synology Drive properly.
-![](mmex_nas.png "500px")
+![](mmex_nas.png)
 3. Verify the MMEX first open screen after installation.
-![](mmex_first_open.png "500px")
+![](mmex_first_open.png)
 
 ## Enable Synchronization
 Enable synchronization in the MMEX app via `三 -> Settings -> Synchronization`.
