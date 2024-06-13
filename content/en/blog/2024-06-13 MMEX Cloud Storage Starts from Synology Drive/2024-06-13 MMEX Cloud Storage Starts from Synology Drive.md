@@ -7,7 +7,7 @@ lastmod: 2024-06-13
 draft: false
 weight: 50
 images: []
-contributors: ["MMEX"]
+contributors: ["MMEX Team"]
 ---
 
 As well known that Money Manager EX supports [Bring Your Own Cloud](../../docs/features/usecloud/) well, and this article will take a detailed introduction on getting your MMEX + Synology Drive up on your phones and achieve data sharing.
