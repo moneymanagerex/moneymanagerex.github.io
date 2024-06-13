@@ -16,13 +16,13 @@ As well known that Money Manager EX supports [Bring Your Own Cloud](../../docs/f
 Essentially, we need a device with Android 5.1 or newer, and a cloud provider account. here i take Synology Drive as a start
 
 ### Install Synology Drive
-* Install Synology Drive app on your drive, choose what ever source you like or directly download from [Synology Download Center](https://www.synology.com/en-sg/support/download/DS920+?version=7.2#androids)
+* Install Synology Drive app on your device, choose what ever source you like or directly download from [Synology Download Center](https://www.synology.com/en-sg/support/download/DS920+?version=7.2#androids)
 * Synology Drive app version: `3.6.0-982`
 * Logon your Synology Drive app with your account to ensure it is working well
 * Open Files app to make sure it would explore your Synology Drive
 
 ### Install Money Manager EX
-* Install MMEX4Android on your drive from [F-Droid](https://f-droid.org/packages/com.money.manager.ex/) or [Github](https://github.com/moneymanagerex/android-money-manager-ex/releases)
+* Install MMEX4Android on your device from [F-Droid](https://f-droid.org/packages/com.money.manager.ex/) or [Github](https://github.com/moneymanagerex/android-money-manager-ex/releases)
 * MMEX app version: `2024-05-09 (1032)`
 
 
@@ -51,7 +51,8 @@ Sync tool (e.g. Syncthing) will rely on phone storages (e.g. Documents, Download
 
 ## P.S.
 how to verify you Synology Drive is working well and connected with your phone and MMEX app.
-* Files app to explore Synology Drive ![files on nas](files_nas.png)
+* Files app to explore Synology Drive 
+![files on nas](files_nas.png)
 
 ### LAST NOT LEAST
 Enable synchronization via `三 -> Settings -> Synchronization`.
