@@ -1,7 +1,7 @@
 ---
 title: "Accounts & Currencies"
-description: "Accounts & Currencies"
-lead: ""
+description: "Learn about the different types of accounts and multi-currency support in Money Manager EX."
+lead: "Money Manager EX provides versatile account types and comprehensive multi-currency support to manage your finances effectively."
 date: 2022-02-18
 draft: false
 images: []
@@ -12,21 +12,39 @@ toc: true
 weight: 10
 ---
 
-Money Manager EX allows you to simply create a new bank account with a simple wizard.
+Money Manager EX allows you to create new bank accounts easily with a simple wizard. It currently supports three types of accounts:
 
-It currently supports three types of accounts:
+### Types of Accounts
 
-- “Checking” Account: This is the most common type of account used for MMEX, and can handle most common account types, such as checking accounts, savings accounts, and credit card accounts. Also known as Bank Account, and supports three kinds of transactions. These are withdrawal, deposit, and transfers.
+#### Checking Account
+- **Description**: The most common type of account in MMEX.
+- **Usage**: Suitable for checking accounts, savings accounts, and credit card accounts.
+- **Transactions**: Supports withdrawals, deposits, and transfers.
+- **Alias**: Also known as Bank Account.
 
-- “Term” Accounts: similar to Checking Accounts with the exception that they appear in their section on the home page and can be shown or hidden for normal daily usage. For a better explanation see the account setup example. These kinds of accounts cover specialized accounts such as Cash Term Accounts, Bank Mortgage accounts, Loan accounts, or investment accounts with regular income or expenditure that you need to keep track of. These accounts have their balance section on the Home Page. These accounts also support three kinds of transactions.
+#### Term Account
+- **Description**: Similar to Checking Accounts but with the option to show or hide them for daily usage.
+- **Usage**: Ideal for specialized accounts that you may not need to see daily.
+- **Example**: Refer to the account setup example for detailed information.
 
-- "Investment" Account: The other type of account that MMEX supports is an "Investment" Account. This type of account allows you to track stock/bonds/mutual funds investments and possibly other investments you may own.
+#### Investment Account
+- **Description**: Designed to track investments such as stocks, bonds, and mutual funds.
+- **Usage**: Helps manage and monitor your investment portfolio.
 
-As it can be used in many countries, MMEX needs to consider the currency for the country of use. When creating a new database, the base currency is set to the currency used in the user's country. 
-If the user's currency setting is not listed in the default currencies, the user can create their currency listing. MMEX allows us to work with more than one currency. Each account has its currency setting and will default to the base currency. When we set accounts with different currencies, the transactions we create in these accounts will reflect the currency of the account.
+### Multi-Currency Support
+
+MMEX is designed to be used in various countries, thus it supports multiple currencies.
+
+- **Base Currency**: When creating a new database, the base currency is set according to the user's country.
+- **Custom Currencies**: Users can create custom currency listings if their currency is not in the default list.
+- **Account Currency**: Each account can have its own currency setting, defaulting to the base currency.
+- **Multiple Currencies**: MMEX allows handling multiple currencies across different accounts.
+
+### Visual Examples
 
 |    |    |
 | --- | --- |
 | ![](account1.png) | ![](account2.png) |
 | ![](account3.png) | ![](account4.png) |
 | ![](account5.png) |  |
+
