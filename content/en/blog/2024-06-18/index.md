@@ -2,7 +2,7 @@
 title: "MMEX Cloud Storage with NextCloud"
 description: "A detailed guide on using Money Manager EX with NextCloud for data sharing on your phone."
 lead: "Learn how to set up Money Manager EX with NextCloud to share and sync your financial data."
-date: 2024-06-13
+date: 2024-06-18
 draft: false
 weight: 50
 images: ["nextcloud_explore.png", "files_nextcloud.png", "mmex_nextcloud.png"]
