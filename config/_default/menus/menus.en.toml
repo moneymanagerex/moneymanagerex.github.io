@@ -19,6 +19,13 @@
   weight = 20
   url = "https://android.moneymanagerex.org/?utm_medium=Website_MoneyManagerEX&utm_source=Menu"
 
+# iOS
+[[main]]
+  name = "iOS"
+  identifier = "iOS"
+  weight = 22
+  url = "https://moneymanagerex.org/mmex-ios/?utm_medium=Website_MoneyManagerEX&utm_source=Menu"
+
 # Forum
 [[main]]
   name = "Forum"
