@@ -19,8 +19,8 @@ Here’s a table comparing the approach MMEX uses to sync the SQLite database ac
 
 | **Platform** | **Approach** | **Tools/Framework** | **Local Copy Usage** | **Sync Timing** | **Conflict Handling** | **Best Practice Summary** |
 |--------------|--------------|---------------------|----------------------|-----------------|-----------------------|---------------------------|
-| **Android**  | SAF to access cloud files, copy locally | Storage Access Framework (SAF) | Yes, copy to local storage for faster access | Sync back after database operations or periodically | Handle conflicts manually using timestamps | Use SAF to access the database, work on a local copy, sync changes when done, manage conflicts manually |
-| **iOS**      | Direct access to cloud files, local copy possible in future | SwiftUI `fileImporter` | Not yet, currently direct access | Sync back after user saves or exits the app | Use file timestamps | Currently directly access files, local copy may be used in the future to improve performance |
+| **Android**  | SAF to access cloud files, copy locally | Storage Access Framework (SAF) + cloud drive client (e.g., Google Drive, Dropbox) | Yes, copy to local storage for faster access | Sync back after database operations or periodically | Handle conflicts manually using timestamps | Use SAF to access the database, work on a local copy, sync changes when done, manage conflicts manually |
+| **iOS**      | Direct access to cloud files, local copy possible in future | SwiftUI `fileImporter` + cloud drive client (e.g., iCloud, Dropbox) | Not yet, currently direct access | Sync back after user saves or exits the app | Use file timestamps | Currently directly access files, local copy may be used in the future to improve performance |
 | **Desktop**  | Access from a cloud-synced folder | Native Cloud Drive Clients (e.g., Dropbox, iCloud, Google Drive) | Directly in cloud-synced folder, but safer to use a local copy | Sync as part of cloud folder's sync mechanism | Use file locks, alert users to handle conflicts | Access SQLite from a cloud-synced directory, use local copies for heavy operations, manage conflicts with locks or prompts |
 
 ---
@@ -48,7 +48,7 @@ For desktop platforms, MMEX uses **cloud-synced folders** provided by services l
 
 ### **Attachments in MMEX**
 
-Across **all platforms**, attachments linked to transactions (such as images or PDFs) are **always directly accessed** from cloud storage without creating local copies. This ensures that attachments are available in real-time without needing to manage duplicate files locally. Users can view or download these attachments when needed, maintaining a seamless experience.
+Across **all platforms**, attachments linked to transactions (such as images or PDFs) are **always directly accessed** from cloud storage without creating local copies. Attachments are typically stored in a separate folder, which **may even be on a different cloud drive** from the database itself. This separation ensures users can access attachments in real time while keeping file management simple. Users can view or download these attachments as needed, maintaining a seamless experience.
 
 ---
 
