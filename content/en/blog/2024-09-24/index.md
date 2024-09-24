@@ -4,7 +4,7 @@ description: "Explore how Money Manager EX (MMEX) uses and syncs its SQLite data
 lead: "MMEX uses SQLite for database management across multiple platforms. Follow this guide to understand the different approaches MMEX takes on Android, iOS, and Desktop for using and syncing the database file while ensuring data integrity."
 date: 2024-09-24
 draft: false
-weight: 50
+weight: 40
 images: []
 contributors: ["MMEX Team"]
 ---
