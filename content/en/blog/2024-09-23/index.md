@@ -22,9 +22,9 @@ To enable attachment previews, you’ll first need to configure the folder where
 
 > **Note:** Some cloud storage solutions, such as Google Drive, may not support direct folder setup for attachments in MMEX. You can still sync files manually through third-party tools or select different cloud providers.
 
-|    |   
-| --- |
-| ![](mmex_attachment_setup.png) |
+<p align="center">
+    <img src="mmex_attachment_setup.png" height="300" />
+</p>
 
 Once set up, MMEX will use this folder to store and preview attachments related to your transactions.
 
@@ -43,9 +43,9 @@ Once the attachment folder is set and synced, transactions with linked files wil
 1. Opening the transaction details.
 2. Tapping the **Preview** link to open the associated file (e.g., receipts, invoices) using your phone’s default viewer.
 
-|    |   
-| --- |
-| ![](mmex_attachment_preview.png) |
+<p align="center">
+    <img src="mmex_attachment_preview.png" height="300" />
+</p>
 
 This feature allows you to easily access transaction-related files while managing your finances.
 
