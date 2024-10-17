@@ -19,8 +19,8 @@ Here’s a table comparing the approach MMEX uses to sync the SQLite database ac
 
 | **Platform** | **Approach** | **Tools/Framework** | **Local Copy Usage** | **Sync Timing** | **Conflict Handling** | **Best Practice Summary** |
 |--------------|--------------|---------------------|----------------------|-----------------|-----------------------|---------------------------|
-| **Android**  | SAF to access cloud files, copy locally | Storage Access Framework (SAF) + cloud drive client (e.g., Google Drive, Dropbox) | Yes, copy to local storage for faster access | Sync back after database operations or periodically | Handle conflicts manually using timestamps | Use SAF to access the database, work on a local copy, sync changes when done, manage conflicts manually |
-| **iOS**      | Direct access to cloud files, local copy possible in future | SwiftUI `fileImporter` + cloud drive client (e.g., iCloud, Dropbox) | Not yet, currently direct access | Sync back after user saves or exits the app | Use file timestamps | Currently directly access files, local copy may be used in the future to improve performance |
+| **Android**  | SAF to access cloud files, copy locally | Storage Access Framework (SAF) + cloud drive client (e.g., Google Drive, Dropbox) | Yes, copy to local storage for easier and faster access | Sync back periodically | Handle conflicts manually using timestamps | Use SAF to access the database, work on a local copy, sync changes when done, manage conflicts manually |
+| **iOS**      | Direct access to cloud files | SwiftUI `fileImporter` + cloud drive client (e.g., iCloud, Dropbox) | Not yet, currently direct access | Sync back after user closes database or exits the app | Use file timestamps | Currently directly access files, local copy may be used in the future to improve performance |
 | **Desktop**  | Access from a cloud-synced folder | Native Cloud Drive Clients (e.g., Dropbox, iCloud, Google Drive) | Directly in cloud-synced folder, but safer to use a local copy | Sync as part of cloud folder's sync mechanism | Use file locks, alert users to handle conflicts | Access SQLite from a cloud-synced directory, use local copies for heavy operations, manage conflicts with locks or prompts |
 
 ---
@@ -30,13 +30,13 @@ Here’s a table comparing the approach MMEX uses to sync the SQLite database ac
 #### **Android (MMEX for Android)**
 On Android, MMEX uses the **Storage Access Framework (SAF)** to access the database stored on cloud services like Google Drive or Dropbox. By copying the file to local storage, MMEX can perform faster database operations without depending on network speeds or cloud availability. Once database operations are completed or at regular intervals, the changes are synced back to the cloud file.  
 - **Key Benefit**: Improved performance due to local copies.
-- **Sync Timing**: Sync occurs after database operations or periodically.
+- **Sync Timing**: Sync occurs periodically.
 - **Conflict Handling**: Conflicts are resolved manually using **timestamps**, ensuring that the most recent version of the database is synced.
 
 #### **iOS (MMEX for iOS)**
 On iOS, MMEX currently **directly accesses** the SQLite database from cloud storage without creating a local copy. This approach may be updated in the future to use a local copy for performance improvements, especially for heavier operations. The database syncs back when users save or exit the app. For now, conflicts are handled manually using **timestamps** to determine the latest version.  
 - **Key Benefit**: Simple direct access without local copy management, with future improvements planned.
-- **Sync Timing**: Changes are synced back when the user saves or exits the app.
+- **Sync Timing**: Changes are synced back when the user closes database or exits the app.
 - **Conflict Handling**: MMEX uses **file timestamps** to handle conflicts and notifies users if the cloud version has changed.
 
 #### **Desktop (MMEX for Desktop)**
