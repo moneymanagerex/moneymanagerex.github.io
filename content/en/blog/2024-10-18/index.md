@@ -15,7 +15,7 @@ In this guide, we will explain how to sync your MMEX database between your iOS a
 
 ## Preparation
 
-1. Set up MMEX on your Android device by following [MMEX Cloud Storage with Synology Drive](../2024-06-13\ MMEX\ Cloud\ Storage\ Starts\ from\ Synology\ Drive/).
+1. Set up MMEX on your Android device by following [MMEX Cloud Storage with Synology Drive](../2024-06-13 MMEX Cloud Storage Starts from Synology Drive/).
 2. Install Synology Drive and the latest version of MMEX4iOS on your iOS device.
 3. Log in to your Synology Drive account on both devices and create a dedicated folder for syncing MMEX data (e.g., "MMEX").
 
