@@ -27,10 +27,10 @@ In this guide, we will explain how to sync your MMEX database between your iOS a
 4. Navigate to the `Manage` tab and select `Close Database` to ensure any changes are saved.
 
 <p align="center">
-    <img src="ios_landing.jpeg" height="300" />
-    <img src="ios_sample4Android.jpeg" height="300" />
-    <img src="ios_checking.jpeg" height="300" />
-    <img src="ios_close_database.jpeg" height="300" />
+    <img src="ios_landing.jpeg" height="400" />
+    <img src="ios_sample4Android.jpeg" height="400" />
+    <img src="ios_checking.jpeg" height="400" />
+    <img src="ios_close_database.jpeg" height="400" />
 </p>
 
 ## Open the Sample Database in MMEX4Android
@@ -42,11 +42,11 @@ In this guide, we will explain how to sync your MMEX database between your iOS a
 5. Tap `三 -> Synchronize` to manually sync the changes with the remote cloud provider.
 
 <p align="center">
-    <img src="android_open.png" height="300" />
-    <img src="android_pick_sample_data.png" height="300" />
-    <img src="android_landing.png" height="300" />
-    <img src="android_dup.png" height="300" />
-    <img src="android_sync.png" height="300" />
+    <img src="android_open.png" height="400" />
+    <img src="android_pick_sample_data.png" height="400" />
+    <img src="android_landing.png" height="400" />
+    <img src="android_dup.png" height="400" />
+    <img src="android_sync.png" height="400" />
 </p>
 
 ## Reopen the Database in MMEX4iOS to View the Latest Changes
@@ -57,8 +57,8 @@ In this guide, we will explain how to sync your MMEX database between your iOS a
 4. Tap the sample database again to open it, and you will see the latest transaction added from your Android device.
 
 <p align="center">
-    <img src="ios_landing.jpeg" height="300" />
-    <img src="ios_checking_new.jpeg" height="300" />
+    <img src="ios_landing.jpeg" height="400" />
+    <img src="ios_checking_new.jpeg" height="400" />
 </p>
 
 ## Notices
