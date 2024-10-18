@@ -9,7 +9,7 @@ images: []
 contributors: ["MMEX Team"]
 ---
 
-With the valuable support of both [Guangong](https://github.com/guanlisheng) and [George Ef](https://github.com/georgeef), we have launched the beta version of MMEX for iOS. We invite you to join our beta testing via [TestFlight](https://testflight.apple.com/join/SYakQaAv).
+With the valuable support of both [Guangong](https://guanlisheng.com/) and [George Ef](https://github.com/georgeef), we have launched the beta version of MMEX for iOS. We invite you to join our beta testing via [TestFlight](https://testflight.apple.com/join/SYakQaAv).
 
 In this guide, we will explain how to sync your MMEX database between your iOS and Android devices.
 
@@ -64,4 +64,8 @@ In this guide, we will explain how to sync your MMEX database between your iOS a
 ## Notices
 1. MMEX4iOS is still in beta phase
 2. Cloud Provider might have some latency, please check file's modificaiton time
-4. Long-press and tap `Remove Download` is mandoary to purge privous local copy
+3. Long-press and tap `Remove Download` is mandoary to purge privous local copy
+4. Phone storage + sync tool will have a similar setup and achievement
+
+## References
+1. [MMEX Database Sync Across Android, iOS, and Desktop](../mmex-database-sync-across-android-ios-and-desktop/)
