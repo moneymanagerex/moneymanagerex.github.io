@@ -86,7 +86,13 @@
   parent = "translation"
   url = "https://android-crowdin.moneymanagerex.org/"
   weight = 2
-  
+[[main]]
+  name = "iOS Translation"
+  identifier = "mmex4ios"
+  parent = "translation"
+  url = "https://ios-crowdin.moneymanagerex.org/"
+  weight = 3
+
 # Development
 [[main]]
   name = "Development"
