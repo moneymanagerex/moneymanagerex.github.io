@@ -2,7 +2,7 @@
 title: "Compatibility"
 description: "Operating System Compatibilty"
 lead: ""
-date: 2023-02-22
+date: 2024-10-27
 draft: false
 images: []
 menu:
@@ -41,7 +41,8 @@ If you do encounter compatibilty issues not noted here, or indeed know of MMEX w
 - macOS 11 Big Sur (Intel/ARM) - Supported
 - macOS 12 Monterey (Intel/ARM)  - Supported
 - macOS 13 Ventura (Intel/ARM)  - Supported
-- MacOS 14 Sonoma (Inetl/ARM) - Supported
+- MacOS 14 Sonoma (Intel/ARM) - Supported
+- MacOS 15 Sequoia (Intel/ARM) - Supported
 
 ### Linux
 
