@@ -64,7 +64,7 @@ In this guide, we will explain how to sync your MMEX database between your iOS a
 ## Notices
 1. MMEX4iOS is still in beta phase
 2. Cloud Provider might have some latency, please check file's modificaiton time
-3. Long-press and tap `Remove Download` is mandoary to purge privous local copy
+3. Long-press and tap `Remove Download` is mandatory to purge the previous local copy
 4. Phone storage + sync tool will have a similar setup and achievement
 
 ## References
