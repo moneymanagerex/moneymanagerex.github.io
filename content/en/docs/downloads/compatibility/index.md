@@ -56,18 +56,24 @@ If you do encounter compatibilty issues not noted here, or indeed know of MMEX w
 - Linux Flatpak - Supported
 
 ### Android
-- Android 15
-- Android 14
-- Android 13
-- Android 12
-- Android 11
-- Android 10
-- Android 9
-- Android 8
-- Android 7 - v2024.09.18 (1040) is the last supported version
-- Android 6 - v2024.09.18 (1040) is the last supported version
-- Android 5 - v2024.08.25 (1038) is the last supported version
+
+| Version              | Support Status                       |
+|----------------------|--------------------------------------|
+| Android 15          | Supported                           |
+| Android 14          | Supported                           |
+| Android 13          | Supported                           |
+| Android 12          | Supported                           |
+| Android 11          | Supported                           |
+| Android 10          | Supported                           |
+| Android 9           | Supported                           |
+| Android 8           | Supported                           |
+| Android 7           | v2024.09.18 (1040) is last supported version|
+| Android 6           | v2024.09.18 (1040) is last supported version|
+| Android 5           | v2024.08.25 (1038) is last supported version|
 
 ### iOS
-- iOS 18
-- iOS 17
+
+| Version    | Support Status |
+|------------|----------------|
+| iOS 18    | Supported      |
+| iOS 17    | Supported      |
