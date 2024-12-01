@@ -20,6 +20,7 @@ To safeguard your data, Money Manager EX employs **AES encryption**, a globally 
 
 - **Desktop App**: Starting from version **v1.8.1**, the Desktop app now supports **AES256**, enhancing encryption strength and aligning with the Android app for seamless compatibility.
 - **Android App**: Utilizes robust **AES256** encryption to protect your data on the go.
+- **iOS App**: Encryption support is **TBD**, with plans to bring consistent security standards across all platforms.
 
 This unified adoption of AES256 across platforms ensures better compatibility with **SQLCipher**, further reinforcing the security of your financial records.
 
