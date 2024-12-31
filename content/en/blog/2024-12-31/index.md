@@ -1,5 +1,5 @@
 ---
-title: "Integrate SQLite3MultipleCiphers (SQLite3MC) into MMEX iOS Project"
+title: "Integrate SQLite3MC into MMEX iOS Project"
 Description: "A step-by-step guide to integrating SQLite3MC into the MMEX iOS project for enhanced database security." 
 Lead: "Learn how to integrate SQLite3 Multiple Ciphers (SQLite3MC) into your iOS/swift project to enable advanced encryption features for database security." 
 Date: 2024-12-31  
@@ -38,9 +38,9 @@ Follow these steps to add SQLite3MC to your MMEX project:
    #import "sqlite3mc_amalgamation.h"
    ```
 3. Configure the bridging header in Xcode:
-  - Go to your project target.
-  - Navigate to Build Settings > Swift Compiler - General > Objective-C Bridging Header.
-  - Set the path to your Bridging-Header.h file.
+   - Go to your project target.
+   - Navigate to `Build Settings > Swift Compiler - General > Objective-C Bridging Header`.
+   - Set the path to your Bridging-Header.h file.
 
 
 ### Step 3: Add SQLite3MC Extension for Swift
