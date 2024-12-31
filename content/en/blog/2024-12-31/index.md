@@ -1,7 +1,7 @@
 ---
 title: "Integrate SQLite3MC into MMEX iOS Project"
-Description: "A step-by-step guide to integrating SQLite3MC into the MMEX iOS project for enhanced database security." 
-Lead: "Learn how to integrate SQLite3 Multiple Ciphers (SQLite3MC) into your iOS/swift project to enable advanced encryption features for database security." 
+Description: "A step-by-step guide to integrating SQLite3MC into the MMEX iOS project for enhanced security of financial data."
+Lead: "Learn how to integrate SQLite3 Multiple Ciphers (SQLite3MC) into your iOS/swift project to enable advanced encryption features for financial database security."
 Date: 2024-12-31  
 Draft: False  
 Weight: 50  
