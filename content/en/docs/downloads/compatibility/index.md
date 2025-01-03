@@ -66,10 +66,10 @@ If you do encounter compatibilty issues not noted here, or indeed know of MMEX w
 | Android 11          | Supported                           |
 | Android 10          | Supported                           |
 | Android 9           | Supported                           |
-| Android 8           | Supported                           |
-| Android 7           | v2024.09.18 (1040) is last supported version|
-| Android 6           | v2024.09.18 (1040) is last supported version|
-| Android 5           | v2024.08.25 (1038) is last supported version|
+| Android 8           | v2024.12.19 (1053) is the last supported version|
+| Android 7           | v2024.09.18 (1040) is the last supported version|
+| Android 6           | v2024.09.18 (1040) is the last supported version|
+| Android 5           | v2024.08.25 (1038) is the last supported version|
 
 ### iOS
 
