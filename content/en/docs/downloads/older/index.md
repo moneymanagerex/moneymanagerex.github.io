@@ -14,6 +14,15 @@ weight: 30
 
 Here is a list of older builds. For platform/OS compatibility see [here](../compatibility).
 
+### v1.8.1 (2024.11.29) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.8.1)
+
+- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.8.1/mmex-1.8.1-win64.exe)
+- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.8.1/mmex-1.8.1-win32.exe)
+- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.8.1/mmex-1.8.1-Darwin.dmg)
+- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.8.1/mmex-1.8.1-win64-portable.zip)
+- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.8.1/mmex-1.8.1-win32-portable.zip)
+- [Linux Flatpak (aarch64, x86_64)](https://flathub.org/apps/org.moneymanagerex.MMEX)
+
 ### v1.8.0 (2024.04.29) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.8.0)
 
 - [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.8.0/mmex-1.8.0-win64.exe)
