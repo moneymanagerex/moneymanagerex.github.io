@@ -16,13 +16,13 @@ aliases:
 
 Here are the latest builds for various platforms.  For platform/OS compatibility see [here](../compatibility).
 
-### v1.8.1 (2024.11.29) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.8.1)
+### v1.9.0 (2025.02.07) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.9.0)
 
-- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.8.1/mmex-1.8.1-win64.exe)
-- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.8.1/mmex-1.8.1-win32.exe)
-- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.8.1/mmex-1.8.1-Darwin.dmg)
-- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.8.1/mmex-1.8.1-win64-portable.zip)
-- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.8.1/mmex-1.8.1-win32-portable.zip)
+- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.0/mmex-1.9.0-win64.exe)
+- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.0/mmex-1.9.0-win32.exe)
+- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.0/mmex-1.9.0-Darwin.dmg)
+- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.0/mmex-1.9.0-win64-portable.zip)
+- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.0/mmex-1.9.0-win32-portable.zip)
 - [Linux Flatpak (aarch64, x86_64)](https://flathub.org/apps/org.moneymanagerex.MMEX)
 
 For previous releases click [here](../older).
