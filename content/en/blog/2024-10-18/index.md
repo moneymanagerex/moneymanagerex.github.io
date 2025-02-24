@@ -54,6 +54,7 @@ In this guide, we will explain how to sync your MMEX database between your iOS a
 1. Reopen MMEX on your iPhone, and this time select `Open Database`.
 2. Navigate to the same folder used earlier.
 3. Long-press the sample database file and tap `Remove Download` to delete the outdated local copy.
+   **Note**: This operation is no longer needed since v0.1.28 [1].
 4. Tap the sample database again to open it, and you will see the latest transaction added from your Android device.
 
 <p align="center">
@@ -65,7 +66,12 @@ In this guide, we will explain how to sync your MMEX database between your iOS a
 1. MMEX4iOS is still in beta phase
 2. Cloud Provider might have some latency, please check file's modificaiton time
 3. Long-press and tap `Remove Download` is mandatory to purge the previous local copy
+   **Note**: This operation is no longer needed since v0.1.28 [1].
 4. Phone storage + sync tool will have a similar setup and achievement
 
 ## References
 1. [MMEX Database Sync Across Android, iOS, and Desktop](../mmex-database-sync-across-android-ios-and-desktop/)
+
+---
+
+**[1]** This operation is no longer needed since v0.1.28, as MMEX automatically handles downloading and updating the database for each opening.
