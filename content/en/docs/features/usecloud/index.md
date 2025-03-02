@@ -28,25 +28,25 @@ You are not tied to a specific cloud provider. With MMEX, you have the flexibili
 
 Once the Bring Your Own Cloud (BYOC) is set up on all your devices:
 
-##For Desktop MMEX:
+### For Desktop MMEX
 - MMEX relies on **POSIX file system interfaces** for direct file access.
 - Install your preferred cloud provider client and set its synchronization
 - Simply locate your database on the shared area provided by your chosen cloud provider.
 - The BYOC system syncs the data to the cloud.
 
-##For Android MMEX:
+### For Android MMEX
 - MMEX integrates with **Storage Access Framework (SAF)**, allowing access to files stored in sandboxed locations.
 - Install your preferred cloud provider client and set its synchronization
 - Open or create your database on the shared area provided by your cloud provider.
 - Enable synchronization via `Main Menu -> Settings -> Synchronization`.
     - Set the interval to 5 minutes and ensure "Sync on start" is checked.
 
-##For iOS MMEX:
+### For iOS MMEX
 - MMEX integrates with **File Provider Extension (FPE)** to access cloud-stored files.
 - Install your preferred cloud provider client and set its synchronization
 - Open or create(?) your database on the shared area provided by your cloud provider.
 
-## Synchronization Workflow
+### Synchronization Workflow
 
 The following diagram illustrates how MMEX synchronizes data across different platforms:
 ```
@@ -71,7 +71,7 @@ The following diagram illustrates how MMEX synchronizes data across different pl
 | --- |
 | ![](data_sync_workflow.png) |
 
-## Notes
+### Notes
 - Desktop versions provide **direct file access** for better performance.
 - Android uses SAF, meaning files must be accessed via **Android’s file picker**.
 - iOS relies on FPE, allowing seamless cloud access through the **Files app**.
