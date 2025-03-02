@@ -46,7 +46,7 @@ Once the Bring Your Own Cloud (BYOC) is set up on all your devices:
 - Install your preferred cloud provider client and set its synchronization
 - Open or create(?) your database on the shared area provided by your cloud provider.
 
-## Synchronization Workflow
+** Synchronization Workflow
 
 The following diagram illustrates how MMEX synchronizes data across different platforms:
 ```
@@ -71,7 +71,7 @@ The following diagram illustrates how MMEX synchronizes data across different pl
 | --- |
 | ![](data_sync_workflow.png) |
 
-## Notes
+** Notes
 - Desktop versions provide **direct file access** for better performance.
 - Android uses SAF, meaning files must be accessed via **Android’s file picker**.
 - iOS relies on FPE, allowing seamless cloud access through the **Files app**.
