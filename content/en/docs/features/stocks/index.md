@@ -23,8 +23,10 @@ We often use the terms **stocks** and **shares** interchangeably. Here, we defin
 ## Initializing Stocks and Shares
 
 Before we can manage stocks and shares, we need to create a new **Investment Account**.
-
 This account will allow us to manage stocks held under this investment. This is known as the **investment account**, and multiple accounts can be created to hold different portfolios.
+<p align="center">
+    <img src="Stock-Investment-Screen.png" height="600" />
+</p>
 
 ## Adding a New Stock
 
