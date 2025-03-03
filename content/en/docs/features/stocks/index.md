@@ -34,6 +34,7 @@ Adding a new stock involves a **two-step process**. When we select our **investm
 
 - A **New Stock Investment** dialog appears, where we enter the initial details of our stock. At this point, the **initial price** is the **current market price**.
 - Upon saving, a **share account** is created with the same name as the **company name**, followed by the **Add Share Transaction** dialog, where we enter additional details related to the stock purchase.
+- The same stock can have multiple entries, each representing a separate purchase per LOT.
 
 This dialog is used when creating a new stock or editing an existing stock. Saving this dialog updates the stock's details, including **current market price updates**, which are recorded in the **stock price history**.
 
