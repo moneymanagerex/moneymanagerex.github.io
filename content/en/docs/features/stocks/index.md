@@ -12,7 +12,7 @@ toc: true
 weight: 50
 ---
 
-Money Manager Ex allows the tracking of **stocks and shares** to be incorporated with our general day-to-day transactions. **Stock holdings** have been updated to allow money from our general accounts to be transferred to and from our **investment accounts**. This also allows the payment of **dividends** to be recorded against our stock holdings. To facilitate this, a **share account** is created when we add a new stock. This also allows us to **purchase additional shares** in a stock or **sell shares** from our holdings.
+Money Manager Ex allows the tracking of **stocks and shares** to be incorporated with our general day-to-day transactions. **Stock holdings** have been updated to allow money from our general accounts to be transferred to and from our **investment accounts**. This also allows the payment of **dividends** to be recorded against our stock holdings. To facilitate this, a **share account** is created when we add a new stock (would re-use the investment account). This also allows us to **purchase additional shares** in a stock or **sell shares** from our holdings.
 
 We often use the terms **stocks** and **shares** interchangeably. Here, we define:
 
