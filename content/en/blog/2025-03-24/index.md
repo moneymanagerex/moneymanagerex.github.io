@@ -91,9 +91,9 @@ To reflect appreciation, I applied a **5% annual growth rate**.
 
 <p align="center">
     <img src="asset_add_rate_nav.jpg" height="600" />
-    <img src="dashboard_after_rate_5_per_year.jpg" height="600" />
-    <img src="asset_after_rate_5_per_year.jpg" height="600" />
     <img src="asset_add_rate_5_per_year.jpg" height="600" />
+    <img src="asset_after_rate_5_per_year.jpg" height="600" />
+    <img src="dashboard_after_rate_5_per_year.jpg" height="600" />
 </p>
 
 ## Conclusion
