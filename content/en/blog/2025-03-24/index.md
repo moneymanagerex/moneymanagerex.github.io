@@ -95,8 +95,8 @@ Record a **£101k purchase** in the asset transaction to reflect the full expens
 After purchase, the property’s real value was **£100k**.
 
 <div class="scroll-container">
-    <img src="asset_revalue_100k.jpg" height="600" />
-    <img src="asset_after_revalueation.jpg" height="600" />
+    <img src="asset_revalue_100k.png" height="600" />
+    <img src="asset_after_revalueation.png" height="600" />
 </div>
 
 ### Step 6: Applying a 5% Yearly Growth Rate
@@ -104,10 +104,10 @@ After purchase, the property’s real value was **£100k**.
 To reflect appreciation, I applied a **5% annual growth rate**.
 
 <div class="scroll-container">
-    <img src="asset_add_rate_nav.jpg" height="600" />
-    <img src="asset_add_rate_5_per_year.jpg" height="600" />
-    <img src="asset_after_rate_5_per_year.jpg" height="600" />
-    <img src="dashboard_after_rate_5_per_year.jpg" height="600" />
+    <img src="asset_add_rate_nav.png" height="600" />
+    <img src="asset_add_rate_5_per_year.png" height="600" />
+    <img src="asset_after_rate_5_per_year.png" height="600" />
+    <img src="dashboard_after_rate_5_per_year.png" height="600" />
 </div>
 
 ## Conclusion
