@@ -92,7 +92,7 @@ Record a **£101k purchase** in the asset transaction to reflect the full expens
 
 ### Step 5: Revaluing the Asset
 
-After purchase, the property’s real value was **£100k**.
+After purchase, the property’s real value was **£100k**. The £1k legal fee was already included in the £101k total, making this a more accurate reflection of investment cost and ROI or G/L calculations.
 
 <div class="scroll-container">
     <img src="asset_revalue_100k.png" height="600" />
