@@ -40,7 +40,7 @@ My net worth, on the mmex dashboard, is correctly shown throughout the stages of
 
 ### In mmex - the sale
 * In the existing asset account, I create a deposit (non-asset) transaction on 2010-06-18 for £20k, with payee "the market".
-* I create a withrawal/transfer asset transaction on 2010-06-19 for £20k with payee "valuation".
+* I create a withdrawal/transfer asset transaction on 2010-06-19 for £20k with payee "valuation".
 * In the asset account, I create a deposit/transfer asset transaction on 2010-06-20 for £120k, with payee "purchaser".
 * I create one (non-asset) withdrawal from the asset account on 2010-06-21 of £2k, with payee "solicitor" and a non-asset transfer of £118k from the asset account to my bank account on the same date.
 
