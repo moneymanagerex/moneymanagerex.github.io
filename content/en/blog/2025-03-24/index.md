@@ -54,8 +54,8 @@ On **2000-06-19**, I created:
 - An asset account **"property-1"** with an initial balance of **£0**.
 
 **Recommended Approach:**
-1. Create an **Asset Account** first.
-2. Create an **Asset** with the exact same name (**property-1**).
+1. Create an **Asset Account** first with name(**Property**) or name (**property-1**).
+2. Create an **Asset** with the type(**Property**) or the exact same name (**property-1**).
 
 <div class="scroll-container">
     <img src="asset_account_creation.jpg" height="600" />
