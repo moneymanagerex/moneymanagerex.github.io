@@ -110,6 +110,11 @@ To reflect appreciation, I applied a **5% annual growth rate**.
     <img src="dashboard_after_rate_5_per_year.png" height="600" />
 </div>
 
+### At last: Review All Details and Perform Modifications If Any
+<div class="scroll-container">
+    <img src="asset_account_cash_flow_details.png" height="600" />
+</div>
+
 ## Conclusion
 
 By following these steps, you can accurately record an asset purchase in MMEX, ensuring clear financial tracking. The **£101k investment**, including legal fees, is properly reflected, and asset appreciation is tracked over time. This approach provides a precise view of **net worth** and **ROI**.
