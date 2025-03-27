@@ -113,6 +113,7 @@ To reflect appreciation, I applied a **5% annual growth rate**.
 ### At last: Review All Details and Perform Modifications If Any
 <div class="scroll-container">
     <img src="asset_account_cash_flow_details.png" height="600" />
+    <img src="asset_after_rate_5_per_year.png" height="600" />
 </div>
 
 ## Conclusion
