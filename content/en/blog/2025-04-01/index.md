@@ -1,7 +1,7 @@
 ---
-title: "Viewing Balance in the Single Account Panel"
-description: "A guide on how to correctly view and calculate balances in the single account panel of Money Manager Ex."
-lead: "To ensure the correct balance calculation in the single account panel, transactions should be sorted by Sequence Number (SN) in ascending order."
+title: "How to read Balance in single-account panels"
+description: "Understanding how the balance is displayed in the single account panel and the correct way to sort transactions for accurate calculations."
+lead: "To ensure the correct balance calculation in the single account panel, transactions must be sorted by Sequence Number (SN) in ascending order."
 date: 2025-04-01
 draft: false
 weight: 50
@@ -9,44 +9,34 @@ images: []
 contributors: ["MMEX"]
 ---
 
-## Overview
+In single-account panels, column Balance shows the account balance after the execution of each transaction.
 
-In Money Manager Ex, the **Balance** column in the single account panel displays the running balance after each transaction. However, to ensure the balance is calculated correctly, transactions must be sorted in a specific order.
+## Short description (what you see in GUI)
 
-## Correct Sorting for Balance Calculation
+**In 1.9.0, Balance is calculated in the order of SN (Sequence Number).**
 
-Starting from **version 1.9.0**, the balance is dynamically computed based on the **Sequence Number (SN)**. If the transactions are not sorted by SN, the balance column may show incorrect values.
+To read Balance in the correct (calculation) order, you should sort by SN in ascending order, i.e., if the current sorting column is anything else, just click once on the SN header.
 
-To ensure the correct display of balances:
+Sorting by SN shows Balance in calculation order also when scheduled transactions are enabled (with the square button next to the filter selector). This is a new feature in 1.9.0.
 
-1. **Sort transactions by SN in ascending order** by clicking on the "SN" column header.
-2. If scheduled transactions are enabled (using the square button next to the filter selector), the balance will still display correctly when sorted by SN.
+## Long description (how it works behind the GUI)
 
-This ensures the balance reflects the correct transaction sequence.
+In 1.9.0, both SN and Balance are calculated dynamically, when the list of transactions is fetched from DB. They are not stored in DB and they are not re-calculated every time you sort the list by another column. If you add/remove/edit transactions, the list is re-created and it is pre-sorted by Date/ID (or Date/Time/ID if Time is enabled) before SN and Balance is re-calculated. After this, the list is sorted again by the columns you selected, so both SN and Balance may appear out of order.
 
-## How Balance Calculation Works
+Be aware that sorting is always by two columns (see the "Sort Order" indicator above the table). When you click a column it becomes the primary sorting column, but there is also a secondary column. SN is unique, so the secondary column doesn’t matter if the primary column is SN (the same is true for ID, but only if scheduled transactions are disabled). [In 1.8.1, Date was coupled to ID; not anymore in 1.9.0, so be careful about the secondary column when the primary column is not unique.]
 
-In **version 1.9.0**, the SN and balance are recalculated dynamically when fetching transactions from the database. The steps involved are:
+Sorting by Date may show Balance in correct order, but only under strict conditions: all transactions have been entered in chronological order, and scheduled transactions are disabled. Under these conditions, sorting by Date is equivalent to sorting by Date/ID, which is equivalent to sorting by SN. However, after some use, the above conditions are not valid anymore, so sorting by SN is the recommended (and simpler) way to read Balance in the correct order.
 
-1. **Retrieving Transactions**  
-   - The database fetches transaction records based on the current sorting method.
-  
-2. **Assigning Sequence Numbers (SN)**  
-   - Each transaction is assigned a sequence number dynamically according to the sorted order.
-  
-3. **Computing Running Balance**  
-   - The balance is calculated in order of the assigned SN.
+Sorting by ID may show Balance in correct order, but only under strict conditions. After some use, these conditions are usually not valid.
 
-This means the balance display depends entirely on the sorting method. If transactions are sorted incorrectly, the balance calculation will not reflect the true transaction sequence.
+Sorting by Date/ID (i.e., Date as primary and ID as secondary, which can be selected by clicking ID first and Date next), is almost equivalent to SN, but also only under conditions: Time is disabled and scheduled transactions are disabled.
 
-## Ensuring Accurate Balances
+Sorting by Balance serves a different purpose: it sorts the transactions list in order of ascending or descending balance. This is not the same as the balance calculation order, which is mostly chronological.
 
-To always see the correct balance:
+## Summary
 
-- **Always sort by SN in ascending order** when reviewing transactions.
-- **Use the SN column header** to adjust sorting if needed.
-- **Enable scheduled transactions** only when required, as they also follow this ordering rule.
+Sorting by SN, shows Balance in the correct order under any conditions (because both SN and Balance are calculated together, in the same order). Sorting by anything else, usually shows Balance in the wrong order.
 
 ## Reference
 
-- [GitHub Issue #7218 - Balance Calculation Discussion](https://github.com/moneymanagerex/moneymanagerex/issues/7218)
+- [GitHub Issue #7218 - How to read Balance in single-account panels](https://github.com/moneymanagerex/moneymanagerex/issues/7218)
