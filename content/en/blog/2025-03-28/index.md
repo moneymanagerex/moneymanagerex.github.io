@@ -26,6 +26,7 @@ In Stock v2, this structure is deprecated. Instead, each **Investment Account** 
 To maintain **backward compatibility**, historical **Share Accounts** will still be displayed alongside the new **Cash Ledger**. This ensures users can access their past investment records without disruption.
 
 For users migrating to Stock v2, transactions within **Share Accounts** can be updated by modifying their **Transaction Account ID** to the corresponding **Investment Account ID**. This allows for seamless integration with the new system while preserving historical data.
+Additionally, if the original Share Accounts had non-zero initial balances, users should also update the initial balances of the corresponding Investment Accounts to reflect those amounts accurately.
 
 ### 3. Stock Trading with Buy/Sell Transactions
 
@@ -76,7 +77,7 @@ By adopting LOT-based trade tracking, users can better manage their investment p
 The MMEX Stock v2 update improves investment tracking by:
 - **Replacing Shared Accounts** with **Cash Ledgers** for each Investment Account.
 - **Maintaining Historical Share Accounts** alongside the new system for backward compatibility.
-- **Allowing Data Migration** by updating **Transaction Account IDs** to link historical transactions to new Investment Accounts.
+- **Allowing Data Migration** by updating **Transaction Account IDs** to link historical transactions and initial balances to new Investment Accounts.
 - **Standardizing Buy/Sell Transactions** while maintaining cash tracking through withdrawals and deposits.
 - **Introducing Deductible Commission Splits** for accurate stock cost calculation.
 - **Removing the Transfer Concept**, ensuring every position trade directly affects cash flow.
