@@ -36,9 +36,9 @@ Stock transactions are now structured using **Buy** and **Sell** operations. How
 
 A major improvement is the support for **deductible commission splits**. This allows for more accurate tracking of stock purchase prices by properly accounting for commission fees. This ensures a precise cost basis for stock positions.
 
-### 5. Deprecation of "Transfer" Concept
+### 5. Refinement of "Transfer" Concept
 
-The **"Transfer"** concept has been deprecated. Instead, all **position trades** now directly impact the **Cash Ledger** with actual values, reflecting real cash flow movements.
+The **"Transfer"** concept has been refined for greater clarity and accuracy. Now, all **position trades** directly update the **Cash Ledger** with actual values, providing a more precise reflection of real cash flow movements.
 
 ### 6. Recommended LOT-based Trade Tracking
 
@@ -80,7 +80,7 @@ The MMEX Stock v2 update improves investment tracking by:
 - **Allowing Data Migration** by updating **Transaction Account IDs** to link historical transactions and initial balances to new Investment Accounts.
 - **Standardizing Buy/Sell Transactions** while maintaining cash tracking through withdrawals and deposits.
 - **Introducing Deductible Commission Splits** for accurate stock cost calculation.
-- **Removing the Transfer Concept**, ensuring every position trade directly affects cash flow.
+- **Simplifying the model by refining the Transfer concept**, so that every position trade directly affects cash flow.
 - **Recommending LOT-based Trade Tracking**, enhancing cost basis calculations and tax reporting.
 
 These changes provide **clearer financial records**, **improved cost tracking**, and **better investment management** within MMEX.
