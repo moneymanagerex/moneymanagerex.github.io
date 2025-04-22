@@ -32,12 +32,12 @@ If you do encounter compatibilty issues not noted here, or indeed know of MMEX w
 
 ### MacOS / OSX
 
-- macOS 10.10 - MMEX v1.6.1 is last supported version
-- macOS 10.11 - MMEX v1.6.1 is last supported version
-- macOS 10.12	Sierra - Supported
-- macOS 10.13	High Sierra - Supported
-- macOS 10.14	Mojave - Supported
-- macOS 10.15	Catalina - Supported
+- macOS 10.10 Yosemite - the last supported version is MMEX v1.6.1
+- macOS 10.11 El Capitan - the last supported version is MMEX v1.6.1
+- macOS 10.12 Sierra - the last supported version is MMEX v1.9.0
+- macOS 10.13 High Sierra - the last supported version is MMEX v1.9.0
+- macOS 10.14 Mojave - the last supported version is MMEX v1.9.0
+- macOS 10.15 Catalina - the last supported version is MMEX v1.9.0
 - macOS 11 Big Sur (Intel/ARM) - Supported
 - macOS 12 Monterey (Intel/ARM)  - Supported
 - macOS 13 Ventura (Intel/ARM)  - Supported
