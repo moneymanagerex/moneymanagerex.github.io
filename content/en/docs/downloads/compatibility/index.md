@@ -43,6 +43,7 @@ If you do encounter compatibilty issues not noted here, or indeed know of MMEX w
 - macOS 13 Ventura (Intel/ARM)  - Supported
 - MacOS 14 Sonoma (Intel/ARM) - Supported
 - MacOS 15 Sequoia (Intel/ARM) - Supported
+- MacOS 26 Tahoe (Intel/ARM) - Supported
 
 ### Linux
 
