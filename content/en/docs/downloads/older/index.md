@@ -7,7 +7,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "Downloads"
+    parent: "downloads"
 toc: true
 weight: 30
 ---
