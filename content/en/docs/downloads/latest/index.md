@@ -2,7 +2,7 @@
 title: "Latest Builds"
 description: "Latest download"
 lead: ""
-date: 2024-12-12
+date: 2025-09-12
 draft: false
 images: []
 menu:
@@ -16,7 +16,7 @@ aliases:
 
 Here are the latest builds for various platforms.  For platform/OS compatibility see [here](../compatibility).
 
-### v1.9.1 (2025.12.12) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.9.1)
+### v1.9.1 (2025.09.12) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.9.1)
 
 - [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.1/mmex-1.9.1-win64.exe)
 - [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.1/mmex-1.9.1-win32.exe)
