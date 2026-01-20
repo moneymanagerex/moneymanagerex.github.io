@@ -25,6 +25,12 @@ Here’s a table comparing the approach MMEX uses to sync the SQLite database ac
 
 ---
 
+#### A picture is worth a thousand words
+
+<p align="center">
+    <img src="mmex_arch.png" height="600" />
+</p>
+
 ### **Detailed Breakdown of Each Platform’s Approach**
 
 #### **Android (MMEX for Android)**

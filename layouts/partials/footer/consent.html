@@ -1,4 +1,32 @@
-<div id="cookieconsent" class="cookie-banner" style="display: none">
-	<p>By using our website, you agree to our <a href="/docs/mmex/cookiepolicy">cookie policy</a>. We use cookies to give you the best online experience.</a></p>
-	<button id="cookieclose" class="btn btn-primary">Got it!</button>
+<div id="cookieconsent" class="cookie-banner" style="display: none;">
+    <p>By using our website, you agree to our <a href="/docs/mmex/cookiepolicy">cookie policy</a>. We use cookies to give you the best online experience.</p>
+    <button id="cookieclose" class="btn btn-primary">Got it!</button>
 </div>
+
+<script>
+    window.onload = function() {
+        var consentBanner = document.getElementById('cookieconsent');
+        var consentButton = document.getElementById('cookieclose');
+
+        // Check if consent has been already given
+        if (localStorage.getItem('cookieConsent') === 'true') {
+            consentBanner.style.display = 'none'; // Hide consent banner
+            gtag('consent', 'update', {
+                'ad_storage': 'granted',
+                'analytics_storage': 'granted'
+            });
+        } else {
+            consentBanner.style.display = 'block'; // Show banner if no consent
+        }
+
+        // When the user clicks 'Got it!', store consent and hide the banner
+        consentButton.addEventListener('click', function() {
+            localStorage.setItem('cookieConsent', 'true'); // Store consent in localStorage
+            consentBanner.style.display = 'none'; // Hide banner
+            gtag('consent', 'update', {
+                'ad_storage': 'granted',
+                'analytics_storage': 'granted'
+            });
+        });
+    };
+</script>

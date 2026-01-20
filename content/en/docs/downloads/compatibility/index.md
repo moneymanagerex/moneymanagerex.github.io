@@ -32,12 +32,12 @@ If you do encounter compatibilty issues not noted here, or indeed know of MMEX w
 
 ### MacOS / OSX
 
-- macOS 10.10 - MMEX v1.6.1 is last supported version
-- macOS 10.11 - MMEX v1.6.1 is last supported version
-- macOS 10.12	Sierra - Supported
-- macOS 10.13	High Sierra - Supported
-- macOS 10.14	Mojave - Supported
-- macOS 10.15	Catalina - Supported
+- macOS 10.10 Yosemite - the last supported version is MMEX v1.6.1
+- macOS 10.11 El Capitan - the last supported version is MMEX v1.6.1
+- macOS 10.12 Sierra - the last supported version is MMEX v1.9.0
+- macOS 10.13 High Sierra - the last supported version is MMEX v1.9.0
+- macOS 10.14 Mojave - the last supported version is MMEX v1.9.0
+- macOS 10.15 Catalina - the last supported version is MMEX v1.9.0
 - macOS 11 Big Sur (Intel/ARM) - Supported
 - macOS 12 Monterey (Intel/ARM)  - Supported
 - macOS 13 Ventura (Intel/ARM)  - Supported
@@ -55,3 +55,26 @@ If you do encounter compatibilty issues not noted here, or indeed know of MMEX w
 - Ubuntu 20.04 Focal - Supported
 - Ubuntu 22.04 Jammy - Supported
 - Linux Flatpak - Supported
+
+### Android
+
+| Version              | Support Status                       |
+|----------------------|--------------------------------------|
+| Android 15          | Supported                           |
+| Android 14          | Supported                           |
+| Android 13          | Supported                           |
+| Android 12          | Supported                           |
+| Android 11          | Supported                           |
+| Android 10          | Supported                           |
+| Android 9           | v2025.01.10 (1059) is the last supported version|
+| Android 8           | v2024.12.19 (1053) is the last supported version|
+| Android 7           | v2024.09.18 (1040) is the last supported version|
+| Android 6           | v2024.09.18 (1040) is the last supported version|
+| Android 5           | v2024.08.25 (1038) is the last supported version|
+
+### iOS
+
+| Version    | Support Status |
+|------------|----------------|
+| iOS 18    | Supported      |
+| iOS 17    | Supported      |

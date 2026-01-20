@@ -7,7 +7,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "Downloads"
+    parent: "downloads"
 toc: true
 weight: 30
 ---
@@ -111,6 +111,7 @@ Here is a list of older builds. For platform/OS compatibility see [here](../comp
 - [Linux Ubuntu 22.04 Jammy (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.6.1/mmex_1.6.1-Ubuntu.22.04.jammy_amd64.deb)
 - [Linux Fedora 36 (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.6.1/mmex-1.6.1-Fedora.36.ThirtySix.fc36.x86_64.rpm)
 - [Linux SUSE Tumbleweed (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.6.1/mmex-1.6.1-openSUSE.Tumbleweed.x86_64.rpm)
+- 
 ### v1.6.0 (2022.10.27) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.6.0)
 
 - [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.6.0/mmex-1.6.0-win64.exe)

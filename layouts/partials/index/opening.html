@@ -8,7 +8,13 @@
             <p class="lead fw-normal mb-4 text-white-50">{{ .Params.description | safeHTML }}</p>
             <div class="d-grid gap-3 py-2 d-sm-flex justify-content-center">
                 <a id="download-os" class="btn btn-primary btn-lg px-4" href="docs/downloads/latest"><i class="fas fa-download"></i>&nbsp;Download</a>
-                <a class="btn btn-primary btn-lg px-4" href="https://f-droid.org/packages/com.money.manager.ex"><i class="fas fa-download"></i>&nbsp;Get it on F-Droid</a>
+                <!-- Google Play -->
+                <a class="btn btn-primary btn-lg px-4" href="https://play.google.com/store/apps/details?id=com.money.manager.ex.android"> <i class="fab fa-google-play"></i>&nbsp;Google Play</a>
+
+                <!-- Production App Store -->
+                <a class="btn btn-info btn-lg px-4" href="https://apps.apple.com/us/app/money-manager-ex/id6683300571" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-apple"></i>&nbsp;App Store
+                </a>
                 <a class="btn btn-outline-light btn-lg px-4" href="https://moneymanagerex.org/moneymanagerex/"><i class="fas fa-book-open"></i>&nbsp;Documentation</a>
                 <a class="btn btn-warning btn-lg px-4" href="docs/mmex/donate"><i class="fas fa-donate"></i>&nbsp;Donate</a>
             </div>

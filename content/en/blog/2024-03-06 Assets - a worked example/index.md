@@ -35,14 +35,16 @@ Whatever my net worth was during this period, immediately before the sale it can
 * I create an asset "property-1" initial value £0 and an associated asset account also named "property-1" on 2000-06-19, with an initial balance £0, i.e. before any property-related transactions.
 * I create a (non-asset) transaction on 2000-06-20 which transfers £100k from the bank account to the asset account, and a withdrawal of £1k from the bank account, with payee "solicitor", on the same date.
 * I create a withrawal/transfer asset transaction on 2000-06-21 for £100k, with payee "vendor".
-* My net worth, on the mmex dashboard, is correctly shown throughout the stages of the property purchase: in the beginning there is no asset. Then there is an asset whose value is zero (this makes sense because I don't own it - the value to me is zero). Then my net worth plummets when I pay all that money to the solicitor. Finally, my net worth almost recovers, i.e. apart from legal fees, when I become the property owner the following day.
+
+My net worth, on the mmex dashboard, is correctly shown throughout the stages of the property purchase: in the beginning there is no asset. Then there is an asset whose value is zero (this makes sense because I don't own it - the value to me is zero). Then my net worth plummets when I pay all that money to the solicitor. Finally, my net worth almost recovers, i.e. apart from legal fees, when I become the property owner the following day.
 
 ### In mmex - the sale
 * In the existing asset account, I create a deposit (non-asset) transaction on 2010-06-18 for £20k, with payee "the market".
-* I create a withrawal/transfer asset transaction on 2010-06-19 for £20k with payee "valuation".
+* I create a withdrawal/transfer asset transaction on 2010-06-19 for £20k with payee "valuation".
 * In the asset account, I create a deposit/transfer asset transaction on 2010-06-20 for £120k, with payee "purchaser".
 * I create one (non-asset) withdrawal from the asset account on 2010-06-21 of £2k, with payee "solicitor" and a non-asset transfer of £118k from the asset account to my bank account on the same date.
-* Again, my net worth on the mmex dashboard is correctly shown throughout the stages of the property sale: the asset value increases by £20k (I already own it, but this increase in its value is only confirmed when the sale contract is agreed with the purchaser) and then my net worth changes from consisting of a property asset plus a bank balance to just a bank balance. As in reality, the net worth only ever goes down by the amount of the legal etc fees, because the ownership doesn't change until the purchaser pays up.
+
+Again, my net worth on the mmex dashboard is correctly shown throughout the stages of the property sale: the asset value increases by £20k (I already own it, but this increase in its value is only confirmed when the sale contract is agreed with the purchaser) and then my net worth changes from consisting of a property asset plus a bank balance to just a bank balance. As in reality, the net worth only ever goes down by the amount of the legal etc fees, because the ownership doesn't change until the purchaser pays up.
 
 ## Comments
 In working out this example, I discovered by trial and error what has to happen in mmex for an asset value to change, and came to kind of understand why mmex handles assets the way it does, and also who the various payees should be in all the transactions, in particular, the ones that I invented: "the market" and "valuation".

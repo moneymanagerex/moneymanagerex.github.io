@@ -12,9 +12,9 @@ toc: true
 weight: 20
 ---
 
-Money Manager EX allows tracking incomes and expenses inserting new transactions for every money movement.
+Money Manager EX allows you to track income, expenses, and financial movements by recording transactions for each money flow. Transactions are categorized by bank accounts, investment accounts, and asset accounts, ensuring a comprehensive view of your finances.
 
-Transactions are divided for each bank account and they could have different status:
+Transactions can have different statuses to reflect their current state:
 
 - **Unreconciled**: When you enter a transaction, it initially is in the state of "Unreconciled". Which means the transaction has not been reconciled with your bank/credit card company's balance.
 

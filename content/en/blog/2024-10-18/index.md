@@ -27,10 +27,10 @@ In this guide, we will explain how to sync your MMEX database between your iOS a
 4. Navigate to the `Manage` tab and select `Close Database` to ensure any changes are saved.
 
 <p align="center">
-    <img src="ios_landing.jpeg" height="400" />
-    <img src="ios_sample4Android.jpeg" height="400" />
-    <img src="ios_checking.jpeg" height="400" />
-    <img src="ios_close_database.jpeg" height="400" />
+    <img src="ios_landing.jpeg" height="600" />
+    <img src="ios_sample4Android.jpeg" height="600" />
+    <img src="ios_checking.jpeg" height="600" />
+    <img src="ios_close_database.jpeg" height="600" />
 </p>
 
 ## Open the Sample Database in MMEX4Android
@@ -42,11 +42,11 @@ In this guide, we will explain how to sync your MMEX database between your iOS a
 5. Tap `三 -> Synchronize` to manually sync the changes with the remote cloud provider.
 
 <p align="center">
-    <img src="android_open.png" height="400" />
-    <img src="android_pick_sample_data.png" height="400" />
-    <img src="android_landing.png" height="400" />
-    <img src="android_dup.png" height="400" />
-    <img src="android_sync.png" height="400" />
+    <img src="android_open.png" height="600" />
+    <img src="android_pick_sample_data.png" height="600" />
+    <img src="android_landing.png" height="600" />
+    <img src="android_dup.png" height="600" />
+    <img src="android_sync.png" height="600" />
 </p>
 
 ## Reopen the Database in MMEX4iOS to View the Latest Changes
@@ -54,18 +54,24 @@ In this guide, we will explain how to sync your MMEX database between your iOS a
 1. Reopen MMEX on your iPhone, and this time select `Open Database`.
 2. Navigate to the same folder used earlier.
 3. Long-press the sample database file and tap `Remove Download` to delete the outdated local copy.
+   **Note**: This operation is no longer needed since v0.1.28 [1].
 4. Tap the sample database again to open it, and you will see the latest transaction added from your Android device.
 
 <p align="center">
-    <img src="ios_landing.jpeg" height="400" />
-    <img src="ios_checking_new.jpeg" height="400" />
+    <img src="ios_landing.jpeg" height="600" />
+    <img src="ios_checking_new.jpeg" height="600" />
 </p>
 
 ## Notices
 1. MMEX4iOS is still in beta phase
 2. Cloud Provider might have some latency, please check file's modificaiton time
-3. Long-press and tap `Remove Download` is mandoary to purge privous local copy
+3. Long-press and tap `Remove Download` is mandatory to purge the previous local copy
+   **Note**: This operation is no longer needed since v0.1.28 [1].
 4. Phone storage + sync tool will have a similar setup and achievement
 
 ## References
 1. [MMEX Database Sync Across Android, iOS, and Desktop](../mmex-database-sync-across-android-ios-and-desktop/)
+
+---
+
+**[1]** This operation is no longer needed since v0.1.28, as MMEX automatically handles downloading and updating the database for each opening.
