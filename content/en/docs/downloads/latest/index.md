@@ -2,7 +2,7 @@
 title: "Latest Builds"
 description: "Latest download"
 lead: ""
-date: 2025-09-12
+date: 2026-01-20
 draft: false
 images: []
 menu:
@@ -16,13 +16,13 @@ aliases:
 
 Here are the latest builds for various platforms.  For platform/OS compatibility see [here](../compatibility).
 
-### v1.9.1 (2025.09.12) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.9.1)
+### v1.9.2 (2026.01.20) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.9.2)
 
-- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.1/mmex-1.9.1-win64.exe)
-- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.1/mmex-1.9.1-win32.exe)
-- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.1/mmex-1.9.1-Darwin.dmg)
-- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.1/mmex-1.9.1-win64-portable.zip)
-- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.1/mmex-1.9.1-win32-portable.zip)
+- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.2/mmex-1.9.2-win64.exe)
+- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.2/mmex-1.9.2-win32.exe)
+- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.2/mmex-1.9.2-Darwin.dmg)
+- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.2/mmex-1.9.2-win64-portable.zip)
+- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.2/mmex-1.9.2-win32-portable.zip)
 - [Linux Flatpak (aarch64, x86_64)](https://flathub.org/apps/org.moneymanagerex.MMEX)
 
 For previous releases click [here](../older).
