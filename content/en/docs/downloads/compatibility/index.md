@@ -2,7 +2,7 @@
 title: "Compatibility"
 description: "Operating System Compatibilty"
 lead: ""
-date: 2024-10-27
+date: 2026-01-20
 draft: false
 images: []
 menu:
