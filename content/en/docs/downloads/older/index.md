@@ -2,7 +2,7 @@
 title: "Older Builds"
 description: "Older Builds"
 lead: ""
-date: 2026-01-20
+date: 2026-08-31
 draft: false
 images: []
 menu:
@@ -13,6 +13,15 @@ weight: 30
 ---
 
 Here is a list of older builds. For platform/OS compatibility see [here](../compatibility).
+
+### v1.9.3 (2026.08.07) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.9.3)
+
+- [Windows (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.3/mmex-1.9.3-win64.exe)
+- [Windows (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.3/mmex-1.9.3-win32.exe)
+- [MacOS (Universal)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.3/mmex-1.9.3-Darwin.dmg)
+- [Windows Portable (64-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.3/mmex-1.9.3-win64-portable.zip)
+- [Windows Portable (32-bit)](https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.3/mmex-1.9.3-win32-portable.zip)
+- [Linux Flatpak (aarch64, x86_64)](https://flathub.org/apps/org.moneymanagerex.MMEX)
 
 ### v1.9.2 (2026.01.20) [Release Notes](https://github.com/moneymanagerex/moneymanagerex/releases/tag/v1.9.2)
 
