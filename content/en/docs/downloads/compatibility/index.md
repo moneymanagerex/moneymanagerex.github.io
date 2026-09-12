@@ -2,7 +2,7 @@
 title: "Compatibility"
 description: "Operating System Compatibilty"
 lead: ""
-date: 2026-01-20
+date: 2026-09-12
 draft: false
 images: []
 menu:
@@ -38,12 +38,13 @@ If you do encounter compatibilty issues not noted here, or indeed know of MMEX w
 - macOS 10.13 High Sierra - the last supported version is MMEX v1.9.0
 - macOS 10.14 Mojave - the last supported version is MMEX v1.9.0
 - macOS 10.15 Catalina - the last supported version is MMEX v1.9.0
-- macOS 11 Big Sur (Intel/ARM) - Supported
+- macOS 11 Big Sur (Intel/ARM) - - the last supported version is MMEX v1.9.4
 - macOS 12 Monterey (Intel/ARM)  - Supported
 - macOS 13 Ventura (Intel/ARM)  - Supported
 - MacOS 14 Sonoma (Intel/ARM) - Supported
 - MacOS 15 Sequoia (Intel/ARM) - Supported
 - MacOS 26 Tahoe (Intel/ARM) - Supported
+- MacOS 27 Golden Gate (Intel/ARM) - Supported
 
 ### Linux
 
