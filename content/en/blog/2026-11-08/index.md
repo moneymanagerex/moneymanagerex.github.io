@@ -1,4 +1,3 @@
-
 ---
 title: "Why MMEX Could Crash When Creating a Database in French"
 description: "A look at a recent MMEX bug where duplicate French currency translations caused database creation to fail, and how it was fixed."
@@ -82,29 +81,23 @@ Users affected by the problem could:
 
 This workaround was confirmed by the original reporter in Issue #8605.
 
-## Why is this more than a translation problem?
+## Why was this more than a translation mistake?
 
-At first glance, this looks like a simple localization mistake.
+At first glance, this looks like a simple localization error.
 
-But there is an important software engineering lesson here.
+However, there was an additional problem: the translated currency name was being used as a key during database initialization.
 
-**Human-readable text should generally not be relied upon as a unique identifier.**
+A translation is intended for people and is not guaranteed to remain unique.
 
-A translation is intended for people. It is not guaranteed to remain unique.
+In this case:
 
-For example, two different concepts may legitimately have the same translation in another language.
+- the English currency names were unique;
+- the French translations were not;
+- the database initialization code relied on those names being unique.
 
-If an application uses translated strings as database keys, identifiers, or lookup values, a translation change can unexpectedly become a data-integrity problem.
+So a seemingly harmless translation change could cause a database initialization failure.
 
-This is exactly what happened here.
-
-The English strings were unique.
-
-The French strings were not.
-
-The database initialization code assumed they would always be unique.
-
-That assumption was the real problem.
+The important lesson is that localized display text can affect application logic when it is also used as a database key or lookup value.
 
 ## The fix
 
@@ -122,11 +115,11 @@ while "South Sudanese" remains:
 
 This removes the immediate collision in the French language data.
 
-Second, the database initialization logic was improved so that duplicate-key errors during the initial currency insertion do not cause the entire database creation process to fail.
+Second, the database initialization logic was improved so that this kind of duplicate-key condition no longer causes the entire database creation process to fail unexpectedly.
 
 The relevant fix is tracked in [GitHub Issue #8607](https://github.com/moneymanagerex/moneymanagerex/issues/8607).
 
-The implementation was also refined to keep the related database-generation code in `sqlite2cpp.py` consistent.
+The related database-generation code in `sqlite2cpp.py` was also updated as part of the fix.
 
 ## What should users do?
 
@@ -138,25 +131,6 @@ After the database has been created successfully, you can switch the interface l
 
 As always, keep a backup of your MMEX database before performing major version changes or database migrations.
 
-## What does this mean for MMEX development?
-
-This incident is a useful reminder that localization is not purely a user-interface concern.
-
-Translations can affect:
-
-- Database initialization
-- Validation
-- Sorting
-- Lookup operations
-- Reports
-- Import/export
-- Search
-- Unique constraints
-
-For this reason, localized builds need to be tested not only for visual correctness, but also for the assumptions made by the underlying application logic.
-
-A string that looks perfectly reasonable in a translation file can still expose an edge case somewhere else in the application.
-
 ## Summary
 
 The MMEX 1.9.4 database-creation problem reported in #8605 was not caused by a corrupted database.
@@ -165,11 +139,11 @@ It was caused by two different currencies receiving the same French translation,
 
 The immediate workaround was to create the database using the English interface.
 
-The longer-term solution was to correct the translation and make database initialization more tolerant of duplicate-key conditions.
+The fix corrected the conflicting French translation and improved the database initialization path so that this type of duplicate-key condition no longer causes the entire database creation process to fail unexpectedly.
 
 **The lesson is simple: translations are data too.**
 
-And when application logic depends on that data, localization bugs can become database bugs.
+And when application logic depends on that data, a localization bug can become a database initialization bug.
 
 ## References
 
