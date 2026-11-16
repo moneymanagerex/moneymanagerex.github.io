@@ -28,6 +28,14 @@ Under "Job name," choose x64 or Win32 > Artifacts > Portable (recommended for un
 
 - [Repository of latest signed MacOS Universal builds](https://link.ipx.co.uk/mmex-mac-betas)
 
+### <i class="fa-brands fa-apple"></i>&nbsp;iOS
+
+- [Join the MMEX for iOS Beta (TestFlight)](https://testflight.apple.com/join/SYakQaAv)
+
+Install Apple's TestFlight app, then open the invitation link on your iPhone or iPad to join the beta program.
+
+Beta versions may contain bugs or incomplete features. Back up your MMEX database before testing.
+
 ### <i class="fa-brands fa-linux"></i>&nbsp;Linux (Flatpak)
 
 - [Download latest Linux development build (Flatpak)](https://github.com/moneymanagerex/moneymanagerex/releases/tag/nightly)
