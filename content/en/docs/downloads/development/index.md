@@ -30,7 +30,7 @@ Under "Job name," choose x64 or Win32 > Artifacts > Portable (recommended for un
 
 ### <i class="fa-brands fa-linux"></i>&nbsp;Linux (Flatpak)
 
-- **[Download latest Linux development build (Flatpak)](https://github.com/moneymanagerex/moneymanagerex/releases/tag/nightly)**
+- [Download latest Linux development build (Flatpak)](https://github.com/moneymanagerex/moneymanagerex/releases/tag/nightly)
 
 The latest development build is automatically published to GitHub Releases after a successful build on the `master` branch.
 
@@ -41,5 +41,13 @@ Download the following files from the `nightly` pre-release:
 
 To verify the download (with both files in the same directory):
 
-```bash
-sha256sum -c SHA256SUMS
+    sha256sum -c SHA256SUMS
+
+The `nightly` release is updated automatically with the latest successful development build. It is intended for testing and may contain unfinished features or bugs.
+
+- [Arch User Repository – Stable](https://aur.archlinux.org/packages/moneymanagerex/)
+- [Arch User Repository – Development](https://aur.archlinux.org/packages/moneymanagerex-git/)
+- [Install Linux – Other installation instructions](https://github.com/moneymanagerex/moneymanagerex/blob/master/INSTALL.md#linux)
+- [Build Linux from Source](https://github.com/moneymanagerex/moneymanagerex/blob/master/BUILD.md#linux)
+
+[View Linux CI builds on CircleCI](https://app.circleci.com/pipelines/github/moneymanagerex/moneymanagerex)
