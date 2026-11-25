@@ -84,7 +84,7 @@
   {{ $highlight := $highlight | minify | fingerprint "sha512" -}}
   {{ $katex := $katex | minify | fingerprint "sha512" -}}
   {{ $katexAutoRender := $katexAutoRender | minify | fingerprint "sha512" -}}
-  {{ $mermaid := $mermaid | minify | fingerprint "sha512" -}}
+  {{ $mermaid := $mermaid | fingerprint "sha512" -}}
   {{ if .Site.Params.options.bootStrapJs -}}
     <script src="{{ $bs.RelPermalink }}" integrity="{{ $bs.Data.Integrity }}" crossorigin="anonymous" defer></script>
   {{ end -}}
