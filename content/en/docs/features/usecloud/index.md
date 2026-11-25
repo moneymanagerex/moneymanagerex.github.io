@@ -15,20 +15,20 @@ weight: 110
 
 MMEX gives you the freedom to choose where your financial data lives and how it is synchronized across devices.
 
-Instead of locking you into a specific cloud provider, MMEX supports two approaches:
+Instead of locking you into a specific cloud provider, MMEX supports different storage and synchronization approaches:
 
-- **File-based synchronization** — Keep your MMEX database (`.mmb`) in a cloud storage location and let your preferred synchronization tool handle the rest.
-- **PocketBase-based synchronization** — Use PocketMMEX with your own PocketBase instance to access and manage your financial data across devices.
+- **Cloud Drive Synchronization** — Store your MMEX database (`.mmb`) in a cloud storage location and let your preferred synchronization tool handle file synchronization.
+- **PocketBase Synchronization** — Use your own PocketBase instance as a backend to synchronize supported MMEX data across devices.
 
-Choose the approach that best fits your workflow.
+Both approaches let you retain control over your financial data and infrastructure.
 
-## 1. Cloud Drive (File-based)
+## 1. Cloud Drive Synchronization
 
-With traditional MMEX applications, your financial data is stored in a SQLite database file (`.mmb`).
+With traditional file-based synchronization, MMEX stores your financial data in a SQLite database file (`.mmb`).
 
-You can choose any storage and synchronization provider that supports your devices.
+You can choose any storage and synchronization provider that works across your devices.
 
-### Supported storage solutions
+### Supported Storage Solutions
 
 **Public Cloud Providers**
 
@@ -71,102 +71,123 @@ You can choose any storage and synchronization provider that supports your devic
 - Open or create your database in a location accessible through the Files app.
 - Your cloud provider handles file synchronization.
 
-## 2. PocketMMEX (PocketBase-based)
+### Cloud Drive Synchronization Workflow
 
-**PocketMMEX brings MMEX to the web, powered by PocketBase.**
+The following diagram illustrates how multiple MMEX devices share a database through a cloud storage provider.
 
-Unlike traditional file-based synchronization, PocketMMEX uses a PocketBase instance as its backend. Instead of synchronizing a SQLite database file, it stores MMEX data as structured records in PocketBase collections.
+```mermaid
+sequenceDiagram
+    participant A as MMEX Device A
+    participant C as Cloud Storage
+    participant B as MMEX Device B
 
-### How it works
+    C->>A: Sync (1): Download changes
+    A->>C: Sync (2): Upload changes
+    C->>B: Sync (3): Download changes
+    B->>C: Sync (4): Upload changes
+    C->>A: Sync (5): Synchronize updates
+```
 
-- **Your PocketBase instance**: Use your own PocketBase server to host your financial data.
-- **Structured data**: Accounts, transactions, categories, payees, and other MMEX entities are stored as PocketBase records.
-- **Web access**: Access your financial data through the PocketMMEX web client.
-- **Multi-device access**: Multiple devices can access the same backend without synchronizing database files.
-- **Data ownership**: You control your PocketBase instance, hosting environment, and data.
+The actual synchronization behavior and timing depend on the cloud storage provider and its synchronization client.
 
-PocketMMEX uses PocketBase capabilities such as authentication, APIs, database storage, and real-time updates to provide a web-based MMEX experience.
+**Important:** Cloud file synchronization is not a database-level multi-user synchronization mechanism. Avoid modifying the same SQLite database simultaneously on multiple devices, as this may cause conflicts or data corruption.
 
-### PocketMMEX vs. Cloud Drive
+## 2. PocketBase Synchronization
 
-| Feature | Cloud Drive | PocketMMEX |
-| --- | --- | --- |
-| Storage model | SQLite `.mmb` file | PocketBase records |
-| Backend | Cloud storage provider | Your PocketBase instance |
-| Access | Native MMEX applications | PocketMMEX web client |
-| Synchronization | File synchronization | Backend-based data access |
-| Multi-device access | Through shared database files | Through a shared backend |
-| Hosting | Public or private cloud storage | Self-hosted or hosted PocketBase |
+MMEX also supports a backend-based synchronization approach using **PocketBase**.
 
-**Important:** PocketMMEX and traditional MMEX file-based applications use different storage architectures. PocketBase does not automatically synchronize an existing `.mmb` database with native MMEX applications.
+Instead of synchronizing an entire SQLite database file, MMEX synchronizes supported data entities through a PocketBase backend.
 
-## 3. Synchronization Architecture
+This approach is designed for users who prefer a self-hosted backend and want to synchronize financial data across devices without relying on cloud drive file synchronization.
 
-The following diagram illustrates the two approaches supported by the MMEX ecosystem.
+### Native MMEX Integration
+
+PocketBase synchronization is integrated directly into native MMEX applications.
+
+Key characteristics include:
+
+- **Native Integration:** Synchronization is implemented within MMEX applications, without requiring a separate synchronization sidecar.
+- **Self-hosted Backend:** Run your own PocketBase instance and retain control over your financial data.
+- **Entity-level Synchronization:** Synchronize supported MMEX data entities rather than sharing an entire SQLite database file.
+- **Cross-device Access:** Connect supported MMEX clients to the same PocketBase backend.
+- **Data Ownership:** Choose your own hosting environment and manage your backend infrastructure.
+
+For implementation details, see [MMEX Pull Request #8621](https://github.com/moneymanagerex/moneymanagerex/pull/8621).
+
+### PocketMMEX Web Client
+
+[PocketMMEX](https://github.com/moneymanagerex/web-money-manager-ex/) extends the MMEX ecosystem with a web-based client powered by PocketBase.
+
+It provides browser-based access to MMEX financial data through the PocketBase backend.
+
+Together, native MMEX applications and PocketMMEX can use the same PocketBase infrastructure, providing a foundation for a connected multi-device experience.
+
+### PocketBase Synchronization Architecture
+
+The following diagram illustrates the PocketBase-based architecture.
 
 ```mermaid
 flowchart TB
-    subgraph FILE["File-based: Cloud Drive"]
-        direction TB
-
-        subgraph NATIVE["Native MMEX Applications"]
-            direction LR
-            DESKTOP["Desktop MMEX<br/>Windows / macOS / Linux"]
-            ANDROID["Android MMEX"]
-            IOS["iOS / iPadOS MMEX"]
-        end
-
-        DB["MMEX SQLite Database<br/>.mmb files"]
-
-        CLOUD["Your Chosen Storage Provider<br/>Google Drive / OneDrive / Dropbox<br/>Nextcloud / Synology NAS / Syncthing"]
-
-        DESKTOP --> DB
-        ANDROID --> DB
-        IOS --> DB
-        DB <--> CLOUD
+    subgraph CLIENTS["MMEX Clients"]
+        direction LR
+        DESKTOP["Desktop MMEX"]
+        ANDROID["Android MMEX"]
+        IOS["iOS MMEX"]
+        WEB["PocketMMEX Web"]
     end
 
-    subgraph PB["Backend-based: PocketMMEX"]
-        direction TB
+    PB["Your PocketBase Instance"]
 
-        WEB["PocketMMEX<br/>Web Client"]
-        BACKEND["Your PocketBase Instance"]
-        RECORDS["MMEX Data Collections<br/>Accounts / Transactions / Categories<br/>Payees / Other Entities"]
+    DESKTOP <--> PB
+    ANDROID <--> PB
+    IOS <--> PB
+    WEB <--> PB
 
-        WEB <--> BACKEND
-        BACKEND <--> RECORDS
-    end
-
-    style FILE fill:#eaf3ff,stroke:#4b83c3,color:#222
+    style CLIENTS fill:#eaf3ff,stroke:#4b83c3,color:#222
     style PB fill:#eaf7ef,stroke:#46966a,color:#222
 ```
 
-Both approaches give you control over your financial data, but they use different synchronization mechanisms:
+*Platform availability and supported data entities depend on the current MMEX implementation. The diagram illustrates the overall architecture, not a claim that every client currently supports PocketBase synchronization.*
 
-- **Cloud Drive**: Your devices access a shared database file, while the cloud storage provider synchronizes changes.
-- **PocketMMEX**: Your devices access a shared PocketBase backend through the web client. Data is stored as structured records rather than a shared `.mmb` file.
+## 3. Cloud Drive vs. PocketBase
 
-## 4. Choosing Your Synchronization Solution
+Both approaches provide control over your financial data, but they use different synchronization mechanisms.
 
-| Your needs | Recommended solution |
+| Feature | Cloud Drive | PocketBase |
+| --- | --- | --- |
+| Storage model | SQLite `.mmb` file | Structured data records |
+| Synchronization | File synchronization | Entity-level synchronization |
+| Backend | Cloud storage provider | PocketBase instance |
+| Hosting | Public or private cloud storage | Self-hosted or hosted |
+| Native MMEX integration | Yes | Yes, where implemented |
+| Web access | Not provided by file sync itself | PocketMMEX |
+| Multi-device access | Shared database file | Shared backend |
+| Separate sync server | Not required | PocketBase backend required |
+
+### Choosing Your Synchronization Solution
+
+| Your needs | Recommended approach |
 | --- | --- |
-| Prefer native desktop applications | Cloud Drive |
+| Prefer a traditional `.mmb` database | Cloud Drive |
 | Already use Google Drive or Dropbox | Cloud Drive |
 | Have a Synology NAS or Nextcloud | Cloud Drive |
-| Want to synchronize existing `.mmb` files | Cloud Drive |
-| Want browser-based access | PocketMMEX |
-| Want a self-hosted backend for multiple devices | PocketMMEX |
-| Prefer structured backend data over file synchronization | PocketMMEX |
+| Want to keep using existing database files | Cloud Drive |
+| Want a self-hosted synchronization backend | PocketBase |
+| Want entity-level synchronization | PocketBase |
+| Want browser-based access | PocketBase + PocketMMEX |
+| Want to avoid cloud storage provider lock-in | Either approach |
 
-## 5. Important Notes
+## 4. Important Notes
 
 - Desktop MMEX uses direct file access for database operations.
 - Android MMEX uses SAF, so files must be accessed through compatible document providers.
 - iOS MMEX uses FPE, allowing cloud-stored files to be accessed through Apple's Files integration.
 - Cloud Drive synchronization depends on your provider and its synchronization behavior.
-- Avoid simultaneous modifications to the same SQLite database from multiple devices. Cloud file synchronization is not a database-level multi-user synchronization mechanism.
-- PocketMMEX uses a separate PocketBase-backed data architecture. It does not automatically share or synchronize the native `.mmb` database file.
+- Avoid simultaneous modifications to the same SQLite database from multiple devices.
+- PocketBase synchronization is a separate synchronization mechanism from cloud drive file synchronization.
+- PocketBase synchronization availability depends on the MMEX platform and supported data entities.
+- PocketBase and PocketMMEX do not automatically convert or synchronize an existing `.mmb` file. Data migration or import/export requires an appropriate implementation.
 
-With MMEX, you choose how your financial data is stored and accessed.
+With MMEX, you choose where your financial data lives and how your devices stay synchronized.
 
 **Your data. Your cloud. Your choice.**
