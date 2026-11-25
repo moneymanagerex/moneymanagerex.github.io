@@ -5,6 +5,7 @@ lead: "Your data, your storage, your choice."
 date: 2024-03-04
 draft: false
 images: []
+mermaid: true
 menu:
   docs:
     parent: "Features"
@@ -103,7 +104,7 @@ PocketMMEX uses PocketBase capabilities such as authentication, APIs, database s
 
 The following diagram illustrates the two approaches supported by the MMEX ecosystem.
 
-```mermaid
+```
 flowchart TB
     subgraph FILE["File-based: Cloud Drive"]
         direction TB
