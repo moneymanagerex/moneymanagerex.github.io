@@ -26,6 +26,13 @@
   weight = 22
   url = "https://moneymanagerex.org/mmex-ios/?utm_medium=Website_MoneyManagerEX&utm_source=Menu"
 
+# PocketMMEX
+[[main]]
+  name = "Pocket"
+  identifier = "Pocket"
+  weight = 23
+  url = "http://pocket.moneymanagerex.org/?utm_medium=Website_MoneyManagerEX&utm_source=Menu"
+
 # Forum
 [[main]]
   name = "Forum"
