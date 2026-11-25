@@ -104,7 +104,7 @@ PocketMMEX uses PocketBase capabilities such as authentication, APIs, database s
 
 The following diagram illustrates the two approaches supported by the MMEX ecosystem.
 
-```
+```mermaid
 flowchart TB
     subgraph FILE["File-based: Cloud Drive"]
         direction TB
